@@ -1,8 +1,11 @@
-// // View data
-// d3.json("samples.json").then((data) => {
-//   console.log(data);
-// });
+// This code works to select the dropdown values from index.html
+function parseSelection() {
+    var year = d3.select("#selTime").property("value");
+    var cat = d3.select("#selCategory").property("value");
 
+    console.log(year);
+    console.log(cat);
+}
 
 // Initialize Page
 function init() {
@@ -102,7 +105,7 @@ function init() {
         mData.append("p").text(key[0].toUpperCase() + ": " + key[1] + "\n");    
       });
     });
-  }
+}
   
   // Update plots and metadata for newly selected value in dropdown menu
   function optionChanged(selectValue) {
@@ -219,5 +222,5 @@ function init() {
     });
   }
   
-  init();
+
   
