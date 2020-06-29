@@ -3,8 +3,19 @@ function parseSelection() {
     var year = d3.select("#selTime").property("value");
     var cat = d3.select("#selCategory").property("value");
 
-    console.log(year);
-    console.log(cat);
+    // console.log(year);
+    // console.log(cat);
+
+    var path=`/${cat}/${year}`;
+    // console.log(path);
+
+    d3.json(path).then(function(data) {
+      var names = data.map(row => row[0]);
+      var values = data.map(row => row[1]);
+      console.log(values);
+
+      
+    });
 }
 
 // Initialize Page
