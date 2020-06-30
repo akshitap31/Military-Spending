@@ -15,8 +15,61 @@ function parseSelection() {
       console.log(values);
 
       bar(names,values,cat,year);
+      chartBar(names,values,cat,year);
     });
 }
+
+function chartBar(xData, yData, cat, year) {
+  console.log(yData);
+  var yDataScaled = 0.00;
+  if (cat === "gdp") {
+    yDataScaled = yData.map(data => data);
+  }
+  else {
+    yDataScaled = yData.map(data => data/1000000000);
+  }
+
+  var CategoryTitle = "";
+  if (cat === "gdp") {
+    CategoryTitle = "Gross Domestic Product"
+  }
+  else {
+    CategoryTitle = "Total Military Spend"
+  }
+
+  var yTitle = "";
+  if (cat === "gdp") {
+    yTitle = "Percentage of GDP Spent"
+  }
+  else {
+    yTitle = "Total Spend in USD (Billions)"
+  }
+
+  var ctx = document.getElementById('myChart').getContext('2d');
+  var myChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+          labels: xData,
+          datasets: [{
+              label: yTitle,
+              data: yDataScaled,
+              backgroundColor: 'rgba(255, 99, 132, 0.2)',
+              borderColor: 'rgba(255, 159, 64, 1)',
+              borderWidth: 1
+          }]
+      }//,
+      // options: {
+      //     scales: {
+      //         yAxes: [{
+      //             ticks: {
+      //                 beginAtZero: true
+      //             }
+      //         }]
+      //     }
+      // }
+  });
+}
+
 
 function bar(xData, yData, cat, year){
   var CategoryTitle = "";
