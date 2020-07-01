@@ -61,7 +61,14 @@ def gdp(year):
     gdp_df = pd.read_sql(query, conn)
     return gdp_df.to_json(orient="values")
 
-
+@app.route("/all_data/<year>")
+def all_data(year):
+    query = f"""SELECT gdp.name, tms."{year}", gdp."{year}" FROM gdp
+                JOIN tms ON gdp.code == tms.code
+                WHERE (tms."{year}" IS NOT NULL) OR (gdp."{year}" IS NOT NULL);"""
+    conn = engine.connect()
+    df = pd.read_sql(query, conn)
+    return df.to_json(orient="values")
 
 if __name__ == "__main__":
     app.run(debug=True)
