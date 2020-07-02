@@ -63,12 +63,19 @@ def gdp(year):
 
 @app.route("/all_data/<year>")
 def all_data(year):
-    query = f"""SELECT gdp.name, tms."{year}", gdp."{year}" FROM gdp
+    query = f"""SELECT gdp.name, tms."{year}" as tms, gdp."{year}" as gdp 
+                FROM gdp
                 JOIN tms ON gdp.code == tms.code
                 WHERE (tms."{year}" IS NOT NULL) OR (gdp."{year}" IS NOT NULL);"""
+                
     conn = engine.connect()
-    df = pd.read_sql(query, conn)
-    return df.to_json(orient="values")
+    df = pd.read_sql(query, conn).set_index('name')
+    return df.to_json(orient="index")
+
+@app.route("/Choropleth")
+@app.route("/Choropleth/<year>")
+def showMap(year = 2018):
+    return render_template("/Choropleth/index.html",year = year)
 
 if __name__ == "__main__":
     app.run(debug=True)
