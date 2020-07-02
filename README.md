@@ -15,7 +15,7 @@
 <h4>For this project, we will be analyzing military spending among all countries between 1960 and 2018, with an emphasis on United States military conflicts.  We will compare Total Military Spend in USD as well as military spend as a percentage of each country's GDP, and rank each country through each time period by both metrics.</h4>
 
 
-<h2><center>Before You Begin</center></h2>
+<!-- <h2><center>Before You Begin</center></h2> -->
 
 <!-- <ol>
 <li>Create a new database in PostgresSQL titled "ACNH Critterpedia".</li>
@@ -51,6 +51,7 @@
 <h3>"notebooks" folder</h3>
 <ul>
     <li><b>db_cleanup.ipynb</b> - The Jupyter notebook that we used to read in the two source .csv files from World Bank and create the SQLite DB.</li>
+    <li><b>race.ipynb</b> - The Jupyter notebook that we used to clean and shape the data for the bar chart race.</li>
 </ul>
 <h3>"source" folder</h3>
 <ul>
@@ -65,6 +66,7 @@
 <h4>"static/js" folder</h4>
 <ul>
     <li><b>app.js</b> - </li>
+    <li><b>race.js</b> - </li>
 </ul>
 <h3>"templates" folder</h3>
 <ul>
