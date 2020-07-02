@@ -215,7 +215,7 @@
 
 <h2><center>Charts</center></h2>
 <h3>Bar Chart</h3>
-
+<center><img src="images/BarChartTMS.jpg" class="center" width=800></center><br>
 <br>
 
 <h2><center>Sources</center></h2>
