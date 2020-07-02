@@ -14,8 +14,8 @@ function parseSelection() {
       var values = data.map(row => row[1]);
       console.log(values);
 
-      bar(names,values,cat,year);
-      chartBar(names,values,cat,year);
+    //   bar(names,values,cat,year);
+    //   chartBar(names,values,cat,year);
     });
 }
 
@@ -161,8 +161,8 @@ function init() {
     var values = data.map(row => row[1]);
     console.log(values);
 
-    bar(names,values,cat,year);
-    chartBar(names,values,cat,year);
+    // bar(names,values,cat,year);
+    // chartBar(names,values,cat,year);
   });
 }
   
