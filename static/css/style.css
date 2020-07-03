@@ -1,3 +1,78 @@
+@font-face {
+font-family: "Agency FB Regular";
+src: url(BlackOpsOne-Regular.ttf) format("truetype");
+}
+h1,h3,h5,p,text { font-family: "Agency FB Regular", sans-serif }
+
+#heading {
+  background-color: #009933;
+  color: white;
+}
+
+.jumbotron {
+  background-color: #009933;
+}
+
+.well {
+  background-color: #009933;
+  color: white;
+}
+
+#selCategory {
+  background-color: white;
+  color: black;
+}
+
+#selTime {
+  background-color: white;
+  color: black;
+}
+
+#refreshButton {
+  background-color: white;
+  color: black;
+}
+
+.navigation .navbar-brand {
+  color: white;
+  margin-left: 0px;
+  font-weight: bold;
+  background-color: #009933;
+}
+
+.navbar {
+  background-color: #009933;
+  font-size: 25px; 
+}
+.nav-link {
+  background-color: #009933;
+  padding: inherit;
+  margin-right: 10px;
+}
+
+.active, .dropdown-menu .dropdown-item:active a:hover {
+  background-color: #009933;
+}
+.dropdown-item {
+  color: white;
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #009933;
+}
+
+.nav-link:hover {
+  background-color:#009933;
+  color: white;
+ }
+
+.navbar-brand:hover {
+color: #009933;
+}
+a {
+  color: white;
+  font-size: 15px;
+}
+
 .tooltip {
   display: none;
   position: absolute;

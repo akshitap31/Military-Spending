@@ -8,21 +8,41 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-  <script src="./static/js/app.js"></script>
   <!-- <script src="./static/js/bonus.js"></script> -->
   <!--<script src="samples.json"></script>-->
   <title>Military Spending Across the Globe</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="../style/css/style.css">
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
 </head>
 
 <body>
-
+  <div class="navigation">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" style="background-color: #009933; color: white" href="index.html">MILITARY</a>
+          <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button> -->
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto" style="list-style: none;">
+                  <li class="nav-item">
+                      <a class="nav-link" href="cleaning.html">DATA CLEANING</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="sources.html">SOURCES</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
-        <h1>Military Spending Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset.</p>
+        <div id="heading">
+          <h1><center><u>Military Spending by Country</u>
+            <br>Total USD Spent and Spend as Percentage of GDP</center></h1>
+          <h3><center>Project 2 - Akshita Parasrampuria, Brian Remite, Evan Sims<center></h3>
+          <p>Use the interactive charts below to explore the dataset.</p>
+        </div>
       </div>
     </div>
     <div class="row">
@@ -109,19 +129,25 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6">
-        <h5>Chart.js Bar Chart:</h5>
-        <canvas id="myChart" width="400" height="250"></canvas>
+      <div class="col-md-1">
       </div>
-      <div class="col-md-6">
-        <h5>Plotly Bar Chart:</h5>
-        <div id="bar">
+      <div class="col-md-5">
+        <canvas id="myChart" width="400" height="300"></canvas>
       </div>
+      <div class="col-md-5">
+        <div id="line">
+      </div>
+      <div class="col-md-1">
+      </div>
+    </div>
+    <div id="map">
+      
     </div>
   </div>
   
   <script src="https://d3js.org/d3.v5.min.js"></script>
-  <script type="text/javascript" src="../static/js/app.js"></script>
+  <script src="./static/js/app.js"></script>
+  <script src="./static/js/map.js"></script>
 </body>
 
 </html>

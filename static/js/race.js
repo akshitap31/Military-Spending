@@ -14,22 +14,13 @@ function parseSelection() {
       var values = data.map(row => row[1]);
       console.log(values);
 
-      // bar(names,values,cat,year);
-      chartBar(names,values,cat,year);
+    //   bar(names,values,cat,year);
+    //   chartBar(names,values,cat,year);
     });
 }
 
 function chartBar(xData, yData, cat, year) {
   console.log(yData);
-  
-  var CategoryTitle = "";
-  if (cat === "gdp") {
-    CategoryTitle = "Gross Domestic Product"
-  }
-  else {
-    CategoryTitle = "Total Military Spend"
-  }
-
   var yDataScaled = 0.00;
   if (cat === "gdp") {
     yDataScaled = yData.map(data => data);
@@ -93,11 +84,6 @@ function chartBar(xData, yData, cat, year) {
           }]
       },
       options: {
-          title: {
-            display: true,
-            fontSize: 20,
-            text: `Top Ten Countries in ${year} By ${CategoryTitle}`
-          },
           animation: {
             duration: 2000,
           },
@@ -160,7 +146,7 @@ function bar(xData, yData, cat, year){
   var data1 = [trace1];
 
   // Create your bar chart using plotly
-  // Plotly.newPlot("bar", data1, layout1);
+  Plotly.newPlot("bar", data1, layout1);
 }
 
 // Initialize Page
@@ -176,7 +162,7 @@ function init() {
     console.log(values);
 
     // bar(names,values,cat,year);
-    chartBar(names,values,cat,year);
+    // chartBar(names,values,cat,year);
   });
 }
   
