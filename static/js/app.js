@@ -21,6 +21,15 @@ function parseSelection() {
 
 function chartBar(xData, yData, cat, year) {
   console.log(yData);
+  
+  var CategoryTitle = "";
+  if (cat === "gdp") {
+    CategoryTitle = "Gross Domestic Product"
+  }
+  else {
+    CategoryTitle = "Total Military Spend"
+  }
+
   var yDataScaled = 0.00;
   if (cat === "gdp") {
     yDataScaled = yData.map(data => data);
@@ -85,8 +94,8 @@ function chartBar(xData, yData, cat, year) {
       },
       options: {
           title: {
-            fontSize: 18,
             display: true,
+            fontSize: 20,
             text: `Top Ten Countries in ${year} By ${CategoryTitle}`
           },
           animation: {
@@ -151,7 +160,7 @@ function bar(xData, yData, cat, year){
   var data1 = [trace1];
 
   // Create your bar chart using plotly
-  Plotly.newPlot("bar", data1, layout1);
+  // Plotly.newPlot("bar", data1, layout1);
 }
 
 // Initialize Page

@@ -61,6 +61,20 @@ def gdp(year):
     gdp_df = pd.read_sql(query, conn)
     return gdp_df.to_json(orient="values")
 
+@app.route("/maptms/<year>")
+def maptms(year):
+    query = f"""SELECT name, "{year}" FROM maptms ORDER BY 2 DESC LIMIT 10"""
+    conn = engine.connect()
+    maptms_df = pd.read_sql(query, conn)
+    return maptms_df.to_json(orient="values")
+
+@app.route("/mapgdp/<year>")
+def mapgdp(year):
+    query = f"""SELECT name, "{year}" FROM mapgdp ORDER BY 2 DESC LIMIT 10"""
+    conn = engine.connect()
+    mapgdp_df = pd.read_sql(query, conn)
+    return mapgdp_df.to_json(orient="values")
+
 
 
 if __name__ == "__main__":
