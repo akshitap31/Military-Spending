@@ -14,7 +14,7 @@ function parseSelection() {
       var values = data.map(row => row[1]);
       console.log(values);
 
-      bar(names,values,cat,year);
+      // bar(names,values,cat,year);
       chartBar(names,values,cat,year);
     });
 }
@@ -84,6 +84,11 @@ function chartBar(xData, yData, cat, year) {
           }]
       },
       options: {
+          title: {
+            fontSize: 18,
+            display: true,
+            text: `Top Ten Countries in ${year} By ${CategoryTitle}`
+          },
           animation: {
             duration: 2000,
           },
@@ -161,7 +166,7 @@ function init() {
     var values = data.map(row => row[1]);
     console.log(values);
 
-    bar(names,values,cat,year);
+    // bar(names,values,cat,year);
     chartBar(names,values,cat,year);
   });
 }
