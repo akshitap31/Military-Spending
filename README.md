@@ -220,8 +220,11 @@
 
 <h2><center>Sources</center></h2>
 <ul>
-    <li><a href="https://data.worldbank.org/indicator/MS.MIL.XPND.CD?year_high_desc=true">The World Bank - Military expenditure (current USD)</li>
-    <li><a href="https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?year_high_desc=true">The World Bank - GDP (current US$)</li>
+    <li><a href="https://data.worldbank.org/indicator/MS.MIL.XPND.CD?year_high_desc=true">The World Bank - Military expenditure (current USD)</a></li>
+    <li><a href="https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?year_high_desc=true">The World Bank - GDP (current US$)</a></li>
+    <li><a href="http://api.thenmap.net/doc/v2/">Thenmap API V2</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/List_of_countries_by_level_of_military_equipment">Wikipedia - List of Countries by Level of Military Equipment</li>
+    <li><a href="https://en.wikipedia.org/wiki/List_of_countries_by_number_of_military_and_paramilitary_personnel">Wikipedia - List of Countries by Number of Military and Paramilitary Personnel</a></li>
 </ul>
 </body>
 </html>
