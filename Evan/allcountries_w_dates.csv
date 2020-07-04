@@ -1,0 +1,588 @@
+,id,name,sdate,edate
+0,1,['Namibia'],3/21/1990,2/27/1994
+1,2,['Union of India'],9/19/1948,12/31/1948
+2,3,['Cochinchina'],8/23/1945,6/13/1949
+3,4,['Federation of Rhodesia and Nyasaland'],8/1/1953,12/31/1963
+4,5,['Ruanda-Urundi'],11/1/1922,6/30/1962
+5,6,['Southern Cameroons'],6/1/1961,10/1/1961
+6,7,['Western Sahara'],1/1/1979,9
+7,8,['British Somaliland'],6/26/1960,6/30/1960
+8,9,['Trust Territory of Somalia'],11/1/1949,6/30/1960
+9,10,['Spanish West Africa'],1/1/1934,1/11/1958
+10,11,['Saint Christopher-Nevis-Anguilla'],1/4/1958,12/17/1980
+11,12,['Protectorate of South Arabia'],1/18/1963,11/29/1967
+12,13,['North Borneo'],8/15/1945,7/14/1946
+13,14,['Crown Colony of Sarawak'],8/15/1945,9/16/1963
+14,15,['French West Africa'],1/1/1945,10/4/1958
+15,16,['French Equatorial Africa'],11/12/1940,11/30/1958
+16,17,['Dominion of Newfoundland'],1/1/1907,3/30/1949
+17,18,['Emirate of Cyrenaica'],3/1/1949,12/23/1951
+18,19,Tripolitania,3/1/1949,12/23/1951
+19,20,['British Military Administration of Libya'],11/1/1942,2/28/1949
+20,21,['Fezzan-Ghadames'],1/1/1943,12/23/1951
+21,22,['British Togoland'],7/20/1922,12/13/1956
+22,23,['Gold Coast'],1/1/1901,12/12/1956
+23,24,['French Madagascar'],1897-02-28,10/13/1958
+24,25,['Japan'],4/28/1952,5/13/1973
+25,26,['Japan'],5/14/1973,9
+26,27,['occupation of Japan'],8/28/1945,4/27/1952
+27,28,['Republic of the Congo'],7/1/1960,1/15/1963
+28,29,['Nigeria'],5/30/1967,1/14/1970
+29,30,['Spanish Sahara'],1/12/1958,1/3/1969
+30,31,['Spanish Sahara'],1/4/1969,2/26/1976
+31,32,['Spanish Protectorate in Morocco'],2/27/1913,4/7/1956
+32,33,['French protectorate in Morocco'],3/30/1912,3/1/1956
+33,34,['French occupation zone'],5/5/1945,12/14/1947
+34,35,['West Germany'],5/23/1949,10/27/1956
+35,36,['Japanese occupation of the Dutch East Indies'],2/2/1942,9/2/1945
+36,37,['Japanese occupation of Indonesia'],2/2/1942,9/2/1945
+37,38,['Hyderabad State'],1798-01-01,8/14/1947
+38,39,['Hyderabad State'],8/15/1947,9/18/1948
+39,40,['British occupation of Italian Somaliland'],11/27/1941,10/31/1949
+40,41,['Italian Somalia'],1889-01-01,5/8/1936
+41,42,['Vatican City'],2/11/1929,9
+42,43,['Denmark'],4/1/1948,4/30/1979
+43,44,['Denmark'],5/9/1945,3/30/1948
+44,45,['India'],12/19/1961,5/16/1975
+45,46,['India'],11/1/1954,12/18/1961
+46,47,['Portuguese India'],1814-01-01,10/30/1954
+47,48,['India'],1/26/1950,10/30/1954
+48,49,Kashmir,8/15/1947,12/31/1948
+49,50,['Israel'],5/4/1994,9
+50,51,['Mandatory Palestine'],4/25/1920,5/13/1948
+51,52,['Dominion of India'],1/1/1949,1/25/1950
+52,53,['Dominion of India'],8/15/1947,9/18/1948
+53,54,['French occupation zone in Austria'],4/27/1945,5/15/1955
+54,55,['American occupation zone in Austria'],4/27/1945,5/15/1955
+55,56,['Soviet occupation zone in Austria'],4/27/1945,5/15/1955
+56,57,['British occupation zone in Austria'],4/27/1945,5/15/1955
+57,58,['British Raj'],4/12/1937,8/14/1947
+58,59,['Iraq'],2/13/1958,8/1/1958
+59,60,['Trust Territory of New Guinea'],6/28/1919,12/31/1948
+60,61,['Annam'],8/23/1945,4/30/1954
+61,62,['Territory of Papua'],1884-11-06,12/31/1948
+62,63,['Tonkin'],8/23/1945,4/30/1954
+63,64,['Korea under Japanese rule'],8/29/1910,8/14/1945
+64,65,['North Borneo'],7/15/1946,9/15/1963
+65,67,['South Georgia and the South Sandwich Islands'],1/1/1985,9
+66,68,['Falkland Islands Dependencies'],1/1/1902,12/31/1984
+67,69,['French Guiana'],6/6/1930,3/18/1946
+68,70,['Inini'],6/6/1930,3/18/1946
+69,71,Thailand,8/1/1943,3/25/1945
+70,72,['Ukraine'],3/21/2014,9
+71,73,['Republic of Crimea'],3/21/2014,9
+72,74,['Gibraltar'],1713-04-11,9
+73,75,['Monaco'],1861-01-01,9
+74,76,['Cocos (Keeling) Islands'],11/23/1955,9
+75,77,['British Cocos Islands'],1886-01-01,11/22/1955
+76,78,['British Virgin Islands'],1/4/1958,9
+77,79,['Saint-BarthÃ©lemy'],1878-03-16,9
+78,80,['Nauru'],12/31/1968,9
+79,81,['Japanese occupation of Nauru'],8/26/1942,3/12/1945
+80,82,['Trust Territory of Nauru'],3/13/1945,12/30/1968
+81,83,['Tuvalu'],10/1/1978,9
+82,84,['Territory of Tuvalu'],1/1/1976,9/30/1978
+83,85,['Gilbert and Ellice Islands'],1/12/1916,12/31/1975
+84,86,['Portuguese Macau'],1887-12-01,12/19/1999
+85,87,['Macau'],12/20/1999,12/19/1999
+86,88,['Maldives'],5/26/1965,9
+87,89,['Sint Maarten'],10/10/2010,9
+88,90,['Marshall Islands'],10/21/1986,9
+89,91,['Norfolk Island'],1/1/1979,9
+90,92,['Bermuda'],1707-01-01,9
+91,93,['Saint Martin'],1648-03-23,9
+92,94,['Pitcairn Islands'],12/19/1938,9
+93,95,['San Marino'],1738-01-01,9
+94,96,['Guernsey'],5/9/1945,9
+95,97,['Anguilla'],12/19/1980,9
+96,98,['Crown colony of Labuan'],8/15/1945,7/14/1946
+97,99,['Jersey'],5/9/1945,9
+98,100,['Saint Helena'],1834-04-22,9
+99,102,['Christmas Island'],1/1/1957,9
+100,103,['Liechtenstein'],1866-08-24,9
+101,104,['Aruba'],1/1/1986,9
+102,105,['Saint Kitts and Nevis'],12/18/1980,9/18/1983
+103,106,['Saint Kitts and Nevis'],9/19/1983,9
+104,107,['American Samoa'],1/1/1925,9
+105,108,['Tristan da Cunha'],1/12/1938,9
+106,109,['Cook Islands'],8/4/1965,9
+107,110,['Protectorate of Cook Islands'],3/24/1902,8/3/1965
+108,111,['Saint Pierre and Miquelon'],1814-05-30,9
+109,112,['Akrotiri and Dhekelia'],8/16/1960,9
+110,113,['Niue'],10/19/1974,9
+111,114,['Colony of Niue'],1/1/1901,10/18/1974
+112,115,['Cayman Islands'],8/6/1962,9
+113,116,['Wallis and Futuna'],1/1/1961,9
+114,117,['Malta'],9/21/1964,9
+115,118,['Malta Colony'],1813-07-23,9/20/1964
+116,119,['Caribbean Netherlands'],10/10/2010,9
+117,120,['Saint Vincent and the Grenadines'],10/27/1979,9
+118,121,['Saint Vincent'],1/4/1958,10/26/1979
+119,122,['Grenada'],2/7/1974,9
+120,123,['Grenada'],1/4/1958,2/6/1974
+121,124,['All-Palestine Government'],5/14/1948,1/1/1959
+122,125,['Egyptian Gaza'],1/2/1959,5/31/1967
+123,126,['Mayotte'],7/6/1975,9
+124,127,['Seychelles'],6/29/1976,9
+125,128,['Colony of Seychelles'],1/1/1903,6/28/1976
+126,129,['Palau'],10/1/1994,9
+127,130,['Trust Territory of the Pacific Islands'],11/2/1986,9/30/1994
+128,131,['Kiribati'],7/12/1979,9
+129,132,['Gilbert and Ellice Islands'],1/1/1976,7/11/1979
+130,133,['United States Virgin Islands'],3/31/1917,9
+131,134,['CuraÃ§ao'],10/10/2010,9
+132,135,['Barbados'],11/30/1966,9
+133,136,['Barbados'],1628-07-05,11/29/1966
+134,137,['Northern Mariana Islands'],1/1/1986,9
+135,138,['Tonga'],6/4/1970,9
+136,139,['British Tonga'],5/18/1900,6/5/1970
+137,140,['Andorra'],1813-01-01,9
+138,141,['French India'],5/2/1950,10/30/1954
+139,142,['Federated States of Micronesia'],11/3/1986,9
+140,143,['Trust Territory of the Pacific Islands'],10/21/1986,11/2/1986
+141,144,['Trust Territory of the Pacific Islands'],7/18/1947,10/20/1986
+142,145,['South Pacific Mandate'],6/28/1919,7/17/1947
+143,146,['French India'],1769-01-01,5/1/1950
+144,147,['Antigua and Barbuda'],11/1/1981,9
+145,148,['Colony of Antigua'],1/1/1962,12/31/1967
+146,149,['Antigua and Barbuda'],1/1/1968,10/31/1981
+147,150,['Guam'],7/1/1950,9
+148,151,['Guam'],8/10/1944,6/30/1950
+149,152,['Singapore'],8/9/1965,9
+150,153,['Singapore'],8/31/1963,9/15/1963
+151,154,['Colony of Singapore'],4/1/1946,11/22/1955
+152,155,['Japanese-occupied Singapore'],2/15/1942,8/14/1945
+153,156,['Isle of Man'],1765-01-01,9
+154,157,['Turks and Caicos Islands'],7/10/1973,9
+155,158,['Saint Lucia'],2/22/1979,9
+156,159,['Saint Lucia'],3/1/1967,2/21/1979
+157,160,['Saint Lucia'],1/1/1939,2/28/1967
+158,161,['Bahrain'],8/15/1971,9
+159,162,['Protectorate of Bahrain'],1892-01-01,8/14/1971
+160,163,['Dominica'],11/3/1978,9
+161,164,['Dominica'],1/4/1958,11/2/1978
+162,165,['Netherlands Antilles'],1/1/1986,10/9/2010
+163,166,['Montserrat'],1/4/1958,9
+164,167,['British Leeward Islands'],1/1/1940,1/3/1958
+165,168,['Hong Kong'],7/1/1997,9
+166,169,['British Hong Kong'],1842-08-29,12/24/1941
+167,170,['Japanese occupation of Hong Kong'],12/24/1941,8/15/1945
+168,171,['British Hong Kong'],8/16/1945,6/30/1997
+169,172,['Martinique'],3/19/1946,9
+170,173,['Sao Tome and Principe'],7/12/1975,9
+171,174,['Portuguese SÃ£o TomÃ© and PrÃ\xadncipe'],1/1/1901,7/11/1975
+172,175,['Netherlands Antilles'],12/15/1954,12/31/1985
+173,176,['CuraÃ§ao and Dependencies'],1845-01-01,12/14/1954
+174,177,['Faroe Islands'],4/1/1948,9
+175,178,['Panama Canal Zone'],11/18/1903,10/1/1979
+176,181,['Ã…land Islands'],6/9/1922,9
+177,182,['Guadeloupe'],3/19/1946,9
+178,183,['Comoros'],7/6/1975,9
+179,184,['British Windward Islands'],1/1/1940,1/3/1958
+180,185,['Mauritius'],3/12/1968,9
+181,186,['British Mauritius'],1/1/1903,3/11/1968
+182,187,['RÃ©union'],3/19/1946,9
+183,188,['Saar Protectorate'],12/15/1947,10/27/1956
+184,189,['Luxembourg'],9/10/1944,9
+185,190,"[""People's Republic of Zanzibar and Pemba""]",12/19/1963,4/26/1964
+186,191,['Sultanate of Zanzibar'],1856-10-19,12/18/1963
+187,192,['Italian Dodecanese'],1/1/1919,2/9/1947
+188,193,['German Samoa'],3/1/1901,1/9/1920
+189,194,['Samoa'],1/1/1962,9
+190,195,['Western Samoa Trust Territory'],1/10/1920,12/31/1945
+191,196,['Western Samoa Trust Territory'],1/1/1946,12/31/1961
+192,197,['Turkish Republic of Northern Cyprus'],11/15/1983,9
+193,198,['Portuguese India'],1814-01-01,12/18/1961
+194,199,['Cape Verde'],7/5/1975,9
+195,200,['Portuguese Cape Verde'],1461-12-23,7/4/1975
+196,201,['Transnistria'],7/21/1992,9
+197,202,['French Polynesia'],1/1/1946,9
+198,203,['US occupation of Ryukyu Islands'],4/28/1952,5/13/1973
+199,204,['Colony of Trinidad and Tobago'],1889-01-01,8/30/1963
+200,205,['Trinidad and Tobago'],8/31/1962,9
+201,206,['Brunei'],1/1/1984,9
+202,207,['Protectorate of Brunei'],9/29/1959,12/31/1983
+203,208,['Protectorate of Brunei (1945â€“1959)'],8/15/1945,9/28/1959
+204,209,['Jordan West Bank'],5/14/1948,5/3/1967
+205,210,['Cyprus'],11/15/1983,9
+206,211,['Palestinian National Authority'],5/4/1994,9
+207,212,['Sikkim'],8/15/1947,5/16/1975
+208,213,['British Cameroons'],6/28/1919,5/31/1961
+209,214,['Abkhazia'],8/30/2008,9
+210,215,['French Guiana'],3/19/1946,9
+211,216,['Cyprus'],8/16/1960,11/14/1983
+212,217,['Puerto Rico'],1897-11-25,9
+213,218,['British Cyprus'],1/1/1914,8/15/1960
+214,219,['Lebanon'],11/8/1943,9
+215,220,['State of Greater Lebanon'],9/1/1920,11/7/1943
+216,221,['Kosovo'],2/17/2008,9
+217,222,['Gambia'],2/18/1965,9
+218,223,['Gambia Colony and Protectorate'],1889-01-01,8/17/1965
+219,224,['Jamaica'],8/6/1962,9
+220,225,['Colony of Jamaica'],1/1/1905,8/5/1962
+221,226,['Qatar'],9/3/1971,9
+222,227,['Protectorate of Qatar'],1/1/1916,9/2/1971
+223,228,['Falkland Islands'],1841-01-01,9
+224,229,['Bahamas'],7/10/1973,9
+225,230,['The Crown Colony of the Bahama Islands'],1/1/1901,7/9/1973
+226,232,['Vanuatu'],6/30/1980,9
+227,233,['New Hebrides'],1/1/1906,6/29/1980
+228,234,['Montenegro'],6/3/2006,9
+229,235,['East Timor'],5/20/2002,9
+230,236,['Portuguese Timor'],1869-01-01,6/30/1976
+231,237,['Kuwait'],6/19/1961,9
+232,238,['British Kuwait'],1/1/1927,6/18/1961
+233,239,['Eswatini'],9/6/1968,9
+234,240,['Colony of Swaziland'],1/1/1906,9/5/1968
+235,241,['Fiji'],10/10/1970,9
+236,242,['Colony of Fiji'],1877-01-01,10/9/1970
+237,243,['New Caledonia'],1/1/1961,9
+238,244,['New Caledonia'],3/19/1946,12/31/1960
+239,245,['Colony of New Caledonia'],1853-09-24,3/18/1946
+240,246,['Slovenia'],4/27/1992,9
+241,247,['El Salvador'],1898-11-13,9
+242,248,['Israel'],5/14/1948,5/3/1967
+243,249,['Djibouti'],6/27/1977,9
+244,250,['French Territory of the Afars and the Issas'],7/5/1967,6/26/1977
+245,251,['French Somaliland'],11/27/1941,7/4/1967
+246,252,['Belize'],9/21/1981,9
+247,253,['British Honduras'],1/1/1971,9/20/1981
+248,254,['British Honduras'],1884-10-02,12/31/1970
+249,255,['Rwanda'],1/7/1962,9
+250,256,['North Macedonia'],11/20/1991,9
+251,257,['Equatorial Guinea'],10/12/1968,9
+252,258,['Spanish Guinea'],8/11/1926,10/11/1968
+253,259,['Solomon Islands'],7/7/1978,9
+254,260,['British Solomon Islands'],1899-01-01,7/6/1978
+255,261,['Haiti'],1844-02-27,9
+256,262,['Burundi'],7/1/1962,9
+257,263,['Israel'],5/1/1979,5/3/1994
+258,264,"[""People's Socialist Republic of Albania""]",11/28/1944,1/1/1992
+259,265,['Albania'],1/2/1992,9
+260,266,['Armenia'],12/21/1991,9
+261,267,['Belgium'],6/28/1919,9
+262,268,['Lesotho'],10/4/1966,9
+263,269,['Basutoland'],1884-01-01,10/3/1966
+264,270,['Guinea-Bissau'],9/10/1974,9
+265,271,['Portuguese Guinea'],1/1/1951,9/9/1974
+266,272,['Portuguese Guinea'],1/1/1936,12/31/1950
+267,274,['Netherlands'],5/5/1945,9
+268,275,['Taiwan'],12/1/1949,9
+269,276,['Republic of Formosa'],1895-03-23,1895-10-20
+270,277,['Taiwan under Japanese rule'],1895-10-21,10/24/1945
+271,278,['Bhutan'],12/17/1907,9
+272,279,['French Occupation Zone'],12/15/1947,5/22/1949
+273,280,['Switzerland'],1848-11-12,9
+274,281,['Denmark'],5/1/1979,9
+275,282,['Morocco'],8/5/1979,9
+276,283,['Morocco'],3/4/1958,1/3/1969
+277,284,['Estonia'],9/6/1991,9
+278,285,['Dominican Republic'],1865-03-03,9
+279,286,['Slovakia'],1/1/1993,9
+280,287,['Spain'],12/6/1978,9
+281,288,['Spain under the Restoration'],1874-12-29,4/13/1931
+282,289,['Second Spanish Republic'],4/14/1931,4/1/1939
+283,290,['Spanish State'],4/2/1939,12/5/1978
+284,291,['Malagasy Republic'],10/14/1958,6/25/1960
+285,292,['Costa Rica'],1847-03-21,9
+286,293,['Bosnia and Herzegovina'],4/27/1992,9
+287,294,['British Indian Ocean Territory'],6/23/1976,9
+288,295,['British Indian Ocean Territory'],11/8/1965,6/22/1976
+289,296,['Croatia'],4/27/1992,9
+290,297,['Togo'],4/27/1960,9
+291,298,['French Togoland'],10/5/1958,4/26/1960
+292,299,['Svalbard'],5/8/1945,9
+293,300,['Latvia'],9/6/1991,9
+294,301,['Lithuania'],9/6/1991,9
+295,302,['Sri Lanka'],5/22/1972,9
+296,303,['British Ceylon'],1815-03-05,2/3/1948
+297,304,['Dominion of Ceylon'],2/4/1948,5/21/1972
+298,305,['Ireland'],4/18/1949,9
+299,306,['Irish Free State'],12/8/1922,4/17/1949
+300,307,['Georgia'],12/21/1991,9
+301,308,['United Arab Emirates'],12/2/1971,9
+302,309,['Trucial States'],1/1/1902,12/1/1971
+303,310,['Sierra Leone'],4/27/1961,9
+304,311,['Colony of Sierra Leone'],1/1/1924,4/26/1961
+305,313,['Panama'],11/3/1903,9
+306,314,['Serbia'],2/17/2008,9
+307,315,['Biafra'],5/30/1967,1/14/1970
+308,316,['Czech Republic'],1/1/1993,9
+309,317,['Austria'],5/15/1955,9
+310,318,['Azerbaijan'],12/21/1991,9
+311,319,['Serbia'],6/3/2006,2/16/2008
+312,320,['Israel'],6/1/1967,4/30/1979
+313,321,['Jordan'],8/2/1958,9
+314,322,['Jordan'],5/25/1946,2/14/1958
+315,323,['Portugal'],1808-01-01,9
+316,324,['Hungary'],10/23/1989,9
+317,325,"[""People's Republic of Hungary""]",8/20/1949,10/22/1989
+318,326,['Republic of Hungary'],2/1/1946,8/19/1949
+319,327,['Liberia'],1847-06-26,9
+320,328,"[""People's Republic of Korea""]",8/15/1945,9/8/1945
+321,329,['South Korea'],8/15/1948,9
+322,330,['US occupation of Korea'],9/9/1945,8/14/1948
+323,331,['British occupation zone'],5/5/1945,5/22/1949
+324,332,['Serbia and Montenegro'],4/27/1992,6/2/2006
+325,333,['Iceland'],12/1/1918,9
+326,334,['Soviet occupation zone'],5/5/1945,10/4/1949
+327,335,['American occupation zone'],5/5/1945,5/22/1949
+328,336,['German Democratic Republic'],10/5/1949,10/2/1990
+329,337,['Guatemala'],1823-07-01,9
+330,338,['Cuba'],5/20/1902,9
+331,339,['Bulgaria'],9/7/1940,9
+332,340,['Honduras'],1/1/1925,9
+333,341,['Benin'],3/1/1990,9
+334,342,"[""People's Republic of Benin""]",11/30/1975,2/28/1990
+335,343,['French Dahomey'],10/5/1958,7/31/1960
+336,344,['Republic of Dahomey'],8/1/1960,11/29/1975
+337,345,['Malawi'],7/6/1964,9
+338,346,['Nyasaland'],1/1/1964,7/5/1964
+339,347,['Nyasaland'],7/6/1907,7/31/1953
+340,348,['Eritrea'],5/24/1993,9
+341,349,Eritrea,11/27/1941,9/14/1952
+342,350,['North Korea'],9/9/1948,9
+343,351,"[""People's Committee for North Korea""]",2/2/1946,9/8/1948
+344,352,['Soviet Civil Authority'],8/15/1945,2/1/1946
+345,353,['Serbia and Montenegro'],4/7/1992,4/7/1993
+346,354,['Kingdom of Greece'],6/1/1945,2/9/1947
+347,355,['Czechoslovakia'],1/1/1946,12/3/1992
+348,356,['Nicaragua'],1/1/1933,9
+349,357,['Kingdom of Greece'],2/10/1947,12/7/1973
+350,358,['Greece'],12/8/1973,9
+351,359,['Federation of Malaya'],1/31/1948,8/30/1957
+352,360,['Malayan Union'],4/1/1946,1/30/1948
+353,361,['Malaysia'],8/31/1957,9/15/1963
+354,362,['Japanese-occupied Malaya'],1/31/1942,8/14/1945
+355,363,['Yemen Arab Republic'],9/26/1962,5/21/1990
+356,364,['Mutawakkilite Kingdom of Yemen'],10/30/1918,9/25/1962
+357,365,['British Somaliland'],1/1/1920,6/26/1960
+358,366,['Somaliland'],5/18/1991,9
+359,367,['Bangladesh'],12/16/1971,9
+360,368,['Tajikistan'],9/9/1991,9
+361,369,['Surinam'],1831-01-01,12/14/1954
+362,370,['Suriname'],11/25/1975,9
+363,371,['Suriname'],12/15/1954,11/24/1975
+364,372,['Nepal'],1768-01-01,9
+365,373,['Tunisia'],3/20/1956,9
+366,374,['French protectorate of Tunisia'],1881-05-12,3/19/1956
+367,375,['North Vietnam'],5/1/1954,7/1/1976
+368,376,['South Vietnam'],5/1/1954,7/1/1976
+369,377,['Uruguay'],1828-08-27,9
+370,378,['Serbia and Montenegro'],1/15/1992,4/6/1992
+371,379,['Cambodia'],11/9/1953,9
+372,380,['French Cambodia'],10/27/1945,11/8/1953
+373,381,Kingdom of Kampuchea,3/12/1945,10/26/1945
+374,382,['Syria'],6/1/1967,9
+375,383,['Syria'],1/1/1946,5/3/1967
+376,384,['Senegal'],4/4/1960,9
+377,385,['French Senegal'],10/5/1958,6/19/1960
+378,386,['Kyrgyzstan'],8/31/1991,9
+379,387,['Belarus'],8/25/1991,9
+380,388,['British Guiana'],1/1/1905,5/25/1966
+381,389,['Guyana'],5/26/1966,9
+382,390,['Serbia and Montenegro'],11/20/1991,4/26/1992
+383,391,['Laos'],12/2/1975,9
+384,392,['Kingdom of Laos'],5/11/1947,11/8/1953
+385,393,['Kingdom of Laos'],11/9/1953,12/1/1975
+386,394,['Kingdom of Laos'],4/30/1946,5/10/1947
+387,395,['Lao Issara'],4/8/1945,8/14/1945
+388,396,['Lao Issara'],8/15/1945,4/29/1946
+389,397,['Romania'],1/1/1941,9
+390,398,['Ghana'],3/6/1957,9
+391,399,['Gold Coast'],12/13/1956,3/5/1957
+392,400,['Uganda'],10/9/1962,9
+393,401,['Uganda Protectorate'],1894-01-01,10/8/1962
+394,402,['United Kingdom'],12/8/1922,9
+395,403,['Guinea'],10/2/1958,9
+396,404,['West Germany'],10/28/1956,10/2/1990
+397,405,['Socialist Federal Republic of Yugoslavia'],1/1/1946,11/1/1991
+398,406,['Ecuador'],2/26/1942,9
+399,407,['Gabon'],8/17/1960,9
+400,408,['French Gabon'],12/1/1958,8/19/1960
+401,409,['New Zealand'],12/10/1947,9
+402,410,['Dominion of New Zealand'],9/26/1907,12/9/1947
+403,411,['Republic of Upper Volta'],8/5/1960,8/4/1984
+404,412,['French Upper Volta'],10/5/1958,8/4/1960
+405,413,['Burkina Faso'],8/5/1984,9
+406,414,['Federation of South Arabia'],1/18/1963,11/29/1967
+407,415,['South Yemen'],11/30/1967,5/21/1990
+408,416,['Federation of South Arabia'],1869-01-01,1/17/1963
+409,417,['Philippines'],7/4/1946,9
+410,418,['Commonwealth of the Philippines'],11/15/1935,10/13/1943
+411,419,['Second Philippine Republic'],10/14/1943,8/16/1945
+412,420,['Commonwealth of the Philippines'],8/17/1945,7/3/1946
+413,421,['Italy'],2/10/1947,9
+414,422,['Italy'],4/25/1945,2/9/1947
+415,423,['Oman'],1743-01-01,9
+416,424,['Poland'],5/5/1945,9
+417,425,['Norway'],8/13/1905,9
+418,426,['Ivory Coast'],8/7/1960,9
+419,427,"[""Colony of Cote d'Ivoire""]",10/5/1958,8/6/1960
+420,428,['Empire of Vietnam'],3/11/1945,8/22/1945
+421,429,['State of Vietnam'],6/14/1949,4/30/1954
+422,430,['Vietnam'],7/2/1976,9
+423,431,['Malaysia'],8/9/1965,9
+424,432,['Malaysia'],9/16/1963,8/8/1965
+425,433,['British Military Administration of Malaya'],8/15/1945,3/31/1946
+426,434,['Finland'],1/4/1918,9
+427,435,['Republic of the Congo'],8/15/1960,12/31/1969
+428,436,['French Congo'],12/1/1958,8/14/1960
+429,437,['Republic of the Congo'],3/15/1992,9
+430,438,"[""People's Republic of the Congo""]",1/1/1970,3/14/1992
+431,439,['Germany'],10/3/1990,9
+432,440,['Zimbabwe'],11/11/1965,9
+433,441,['Southern Rhodesia'],1/1/1964,11/10/1965
+434,442,['Southern Rhodesia'],10/1/1923,7/31/1953
+435,443,['Paraguay'],1/1/1938,9
+436,444,['Morocco'],3/2/1956,3/3/1958
+437,445,['Morocco'],1/4/1969,3/31/1976
+438,446,['Cameroon'],1/1/1960,9/30/1961
+439,447,['French Cameroons'],12/1/1958,1/1/1960
+440,448,['Yemen'],5/22/1990,6/11/2000
+441,449,['Iraq'],6/28/2004,9
+442,450,"[""Ba'athist Iraq""]",7/17/1968,4/20/2003
+443,451,['Iraq under Coalition Provisional Authority'],4/21/2003,6/27/2004
+444,452,['Kingdom of Iraq'],10/3/1932,2/13/1958
+445,453,['Kingdom of Iraq'],4/26/1920,10/2/1932
+446,454,['Republic of Iraq'],8/2/1958,7/16/1968
+447,455,['Sweden'],8/13/1905,9
+448,456,['Uzbekistan'],8/31/1991,9
+449,457,['Yemen'],6/12/2000,9
+450,458,['Papua New Guinea'],9/16/1975,9
+451,459,['Territory of Papua and New Guinea'],1/1/1949,9/15/1975
+452,460,['Cameroon'],10/1/1961,9
+453,461,['Turkmenistan'],10/27/1991,9
+454,462,['State of Katanga'],7/1/1960,1/15/1963
+455,463,['Somalia'],5/18/1991,9
+456,464,['Thailand'],3/26/1945,9
+457,465,['France'],1/1/1944,9
+458,466,['Morocco'],4/1/1976,8/4/1979
+459,467,['Botswana'],9/30/1966,9
+460,468,['Bechuanaland Protectorate'],1894-01-01,9/29/1966
+461,469,['Kenya'],12/12/1963,9
+462,470,['Kenya Colony'],1/1/1920,12/11/1963
+463,471,['Madagascar'],6/26/1960,9
+464,472,['Ukraine'],12/1/1991,3/20/2014
+465,473,['Central African Republic'],8/13/1960,9
+466,474,['Ubangi-Shari'],12/1/1958,8/12/1960
+467,475,['South Sudan'],7/9/2011,9
+468,476,['Somali Republic'],7/1/1960,10/20/1969
+469,477,['Somali Democratic Republic'],10/21/1969,5/17/1991
+470,478,['Kingdom of Afghanistan'],6/9/1926,7/16/1973
+471,479,['Afghanistan'],11/13/2001,9
+472,480,['Islamic State of Afghanistan'],4/28/1992,11/12/2001
+473,481,['Republic of Afghanistan'],7/17/1973,4/29/1978
+474,482,['Democratic Republic of Afghanistan'],4/30/1978,4/27/1992
+475,483,['Union of Burma'],1/4/1948,3/1/1962
+476,484,['British Burma'],3/26/1945,1/3/1948
+477,485,['Myanmar'],3/30/2011,9
+478,486,['Socialist Republic of the Union of Burma'],3/2/1962,9/17/1988
+479,487,['Burma/Myanmar under the State Peace and Development Council'],9/18/1988,3/29/2011
+480,488,['State of Burma'],8/1/1943,3/25/1945
+481,489,['Chile'],1818-02-12,9
+482,490,['Zambia'],10/24/1964,9
+483,491,['Northern Rhodesia'],1/1/1964,10/23/1964
+484,492,['Northern Rhodesia'],4/1/1924,7/31/1953
+485,493,['Turkey'],6/29/1939,9
+486,494,['Mozambique'],12/1/1990,9
+487,495,['Portuguese Mozambique'],1/1/1951,6/24/1975
+488,496,['Portuguese Mozambique'],12/31/1942,12/31/1950
+489,497,"[""People's Republic of Mozambique""]",6/25/1975,11/30/1990
+490,498,['Namibia'],2/28/1994,9
+491,499,['South-West Africa'],1/1/1915,3/20/1990
+492,500,['Federation of Nigeria'],10/1/1960,5/31/1961
+493,501,['Colony and Protectorate of Nigeria'],1/14/1914,9/30/1960
+494,502,['Pakistan'],12/1/1971,9
+495,503,['Federation of Nigeria'],6/1/1961,9/30/1963
+496,504,['Nigeria'],1/15/1970,9
+497,505,['Nigeria'],10/1/1963,4/30/1967
+498,506,['Venezuela'],1845-03-30,9
+499,507,"[""People's Republic of China""]",12/1/1949,9
+500,508,['Dominion of Pakistan'],8/15/1947,12/31/1948
+501,509,['Egypt'],6/1/1967,4/30/1979
+502,510,['Tanganyika'],12/9/1961,3/31/1964
+503,511,['Tanganyika Territory'],1/1/1922,12/8/1961
+504,512,['Tanzania'],4/1/1964,9
+505,514,['Republic of Egypt'],6/18/1953,2/21/1958
+506,515,['Egypt'],9/1/1961,5/31/1967
+507,516,['Egypt'],5/1/1979,9
+508,517,['Kingdom of Egypt'],2/28/1922,6/17/1953
+509,518,['Pakistan'],3/23/1956,11/30/1971
+510,519,['Dominion of Pakistan'],1/1/1949,3/22/1956
+511,520,['Mauritania'],11/28/1960,3/31/1976
+512,521,['Mauritania'],8/5/1979,9
+513,522,['Colonial Mauritania'],12/1/1958,11/27/1960
+514,523,['Bolivia'],1840-01-01,9
+515,524,['Ethiopia'],5/24/1993,9
+516,525,['Abyssinia'],11/1/1941,9/14/1952
+517,526,['Mauritania'],4/1/1976,8/4/1979
+518,527,['Colombia'],1819-08-07,9
+519,528,['Chad'],1/1/1973,9
+520,529,['Niger'],8/3/1960,9
+521,530,['Colony of Niger'],10/5/1958,8/2/1960
+522,531,['United Arab Republic'],2/22/1958,8/31/1961
+523,532,['South Africa'],3/1/1990,2/27/1994
+524,533,['South Africa'],12/11/1931,2/28/1990
+525,534,['South Africa'],2/28/1994,9
+526,535,['Angola'],11/11/1975,9
+527,536,['Portuguese Angola'],1/1/1905,12/31/1950
+528,537,['Portuguese Angola'],1/1/1951,12/31/1971
+529,538,['Portuguese Angola'],1/1/1972,11/10/1975
+530,539,['Abyssinia'],11/15/1962,3/22/1975
+531,540,['Ethiopian-Eritrean Federation'],9/15/1952,11/14/1962
+532,541,['Ethiopia'],3/21/1975,5/23/1993
+533,542,['Mali'],9/22/1960,9
+534,543,['French Sudan'],10/5/1958,6/19/1960
+535,544,['Chad'],8/11/1960,12/3/1972
+536,545,['Territory of Chad'],12/1/1958,8/10/1960
+537,546,['Peru'],2/26/1942,9
+538,547,['Mali Federation'],6/20/1960,7/31/1960
+539,548,['Indonesia'],8/17/1945,4/3/1963
+540,549,['Mongolia'],2/13/1992,9
+541,550,"[""Mongolian People's Republic""]",11/26/1924,2/12/1992
+542,551,['Kingdom of Libya'],12/24/1951,8/31/1969
+543,552,['Libyan Arab Republic'],9/1/1969,12/31/1972
+544,553,['Iran'],11/6/1979,9
+545,554,['Iran'],5/1/1946,2/10/1979
+546,555,['Interim Government of Iran'],2/11/1979,11/5/1979
+547,556,['Libyan Arab Jamahiriya'],3/2/1977,8/27/2011
+548,557,['Libyan Arab Republic'],1/1/1973,3/1/1977
+549,558,['Libya'],8/28/2011,9
+550,559,['Sudan'],7/9/2011,9
+551,560,['Dutch East Indies'],4/14/1928,2/1/1942
+552,561,['Dutch East Indies'],1/1/1920,4/13/1928
+553,562,['Netherlands New Guinea'],12/27/1949,9/30/1962
+554,563,['Indonesia'],5/20/2002,9
+555,564,['Indonesia'],5/1/1963,6/30/1976
+556,565,['Dutch East Indies'],9/2/1945,12/26/1949
+557,566,['Indonesia'],7/1/1976,5/19/2002
+558,567,['Saudi Arabia'],6/12/2000,9
+559,568,['Saudi Arabia'],9/23/1932,6/11/2000
+560,569,['Mexico'],1821-09-27,9
+561,570,['Greenland'],5/1/1979,9
+562,571,['Algeria'],7/5/1962,9
+563,572,['French Algeria'],1/1/1919,7/4/1962
+564,573,['Republic of the Congo'],1/16/1963,10/26/1971
+565,574,['Democratic Republic of the Congo'],5/17/1997,9
+566,575,['Zaire'],10/27/1971,5/16/1997
+567,576,['Belgian Congo'],11/15/1908,6/30/1960
+568,577,['Sudan'],1/1/1956,7/8/2011
+569,578,['Anglo-Egyptian Sudan'],1/1/1919,12/31/1955
+570,579,['Kazakhstan'],12/16/1991,9
+571,580,['Argentina'],1861-01-01,9
+572,581,['India'],5/17/1975,9
+573,582,['Australia'],10/9/1942,9
+574,583,['Brazil'],1822-09-07,9
+575,584,['Republic of China (1912â€“1949)'],10/25/1945,11/30/1949
+576,585,['United States of America'],1783-09-03,9
+577,586,['Canada'],12/11/1931,6/30/1948
+578,587,['Canada'],7/1/1948,9
+579,588,['Russia'],12/21/1991,9
+580,589,['Soviet Union'],9/6/1991,12/20/1991
+581,590,['Soviet Union'],1/1/1946,9/5/1991
+582,591,['French Comoros'],10/14/1958,7/5/1975
+583,593,['Colony of Singapore'],11/23/1955,12/31/1956
+584,594,['Colony of Singapore'],1/1/1957,8/30/1963
+585,999,['Antarctica'],0,9
+586,595,['Moldova'],8/27/1991,9
