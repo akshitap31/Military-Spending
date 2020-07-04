@@ -1,0 +1,485 @@
+,name
+0,Namibia
+1,Union of India
+2,Cochinchina
+3,Federation of Rhodesia and Nyasaland
+4,Ruanda-Urundi
+5,Southern Cameroons
+6,Western Sahara
+7,British Somaliland
+8,Trust Territory of Somalia
+9,Spanish West Africa
+10,Saint Christopher-Nevis-Anguilla
+11,Protectorate of South Arabia
+12,North Borneo
+13,Crown Colony of Sarawak
+14,French West Africa
+15,French Equatorial Africa
+16,Dominion of Newfoundland
+17,Emirate of Cyrenaica
+18,T
+19,British Military Administration of Libya
+20,Fezzan-Ghadames
+21,British Togoland
+22,Gold Coast
+23,French Madagascar
+24,Japan
+25,occupation of Japan
+26,Republic of the Congo
+27,Nigeria
+28,Spanish Sahara
+29,Spanish Protectorate in Morocco
+30,French protectorate in Morocco
+31,French occupation zone
+32,West Germany
+33,Japanese occupation of the Dutch East Indies
+34,Japanese occupation of Indonesia
+35,Hyderabad State
+36,British occupation of Italian Somaliland
+37,Italian Somalia
+38,Vatican City
+39,Denmark
+40,India
+41,Portuguese India
+42,K
+43,Israel
+44,Mandatory Palestine
+45,Dominion of India
+46,French occupation zone in Austria
+47,American occupation zone in Austria
+48,Soviet occupation zone in Austria
+49,British occupation zone in Austria
+50,British Raj
+51,Iraq
+52,Trust Territory of New Guinea
+53,Annam
+54,Territory of Papua
+55,Tonkin
+56,Korea under Japanese rule
+57,South Georgia and the South Sandwich Islands
+58,Falkland Islands Dependencies
+59,French Guiana
+60,Inini
+61,Ukraine
+62,Republic of Crimea
+63,Gibraltar
+64,Monaco
+65,Cocos (Keeling) Islands
+66,British Cocos Islands
+67,British Virgin Islands
+68,Saint-BarthÃ©lemy
+69,Nauru
+70,Japanese occupation of Nauru
+71,Trust Territory of Nauru
+72,Tuvalu
+73,Territory of Tuvalu
+74,Gilbert and Ellice Islands
+75,Portuguese Macau
+76,Macau
+77,Maldives
+78,Sint Maarten
+79,Marshall Islands
+80,Norfolk Island
+81,Bermuda
+82,Saint Martin
+83,Pitcairn Islands
+84,San Marino
+85,Guernsey
+86,Anguilla
+87,Crown colony of Labuan
+88,Jersey
+89,Saint Helena
+90,Christmas Island
+91,Liechtenstein
+92,Aruba
+93,Saint Kitts and Nevis
+94,American Samoa
+95,Tristan da Cunha
+96,Cook Islands
+97,Protectorate of Cook Islands
+98,Saint Pierre and Miquelon
+99,Akrotiri and Dhekelia
+100,Niue
+101,Colony of Niue
+102,Cayman Islands
+103,Wallis and Futuna
+104,Malta
+105,Malta Colony
+106,Caribbean Netherlands
+107,Saint Vincent and the Grenadines
+108,Saint Vincent
+109,Grenada
+110,All-Palestine Government
+111,Egyptian Gaza
+112,Mayotte
+113,Seychelles
+114,Colony of Seychelles
+115,Palau
+116,Trust Territory of the Pacific Islands
+117,Kiribati
+118,United States Virgin Islands
+119,CuraÃ§ao
+120,Barbados
+121,Northern Mariana Islands
+122,Tonga
+123,British Tonga
+124,Andorra
+125,French India
+126,Federated States of Micronesia
+127,South Pacific Mandate
+128,Antigua and Barbuda
+129,Colony of Antigua
+130,Guam
+131,Singapore
+132,Colony of Singapore
+133,Japanese-occupied Singapore
+134,Isle of Man
+135,Turks and Caicos Islands
+136,Saint Lucia
+137,Bahrain
+138,Protectorate of Bahrain
+139,Dominica
+140,Netherlands Antilles
+141,Montserrat
+142,British Leeward Islands
+143,Hong Kong
+144,British Hong Kong
+145,Japanese occupation of Hong Kong
+146,Martinique
+147,Sao Tome and Principe
+148,Portuguese SÃ£o TomÃ© and PrÃ­ncipe
+149,CuraÃ§ao and Dependencies
+150,Faroe Islands
+151,Panama Canal Zone
+152,Ã…land Islands
+153,Guadeloupe
+154,Comoros
+155,British Windward Islands
+156,Mauritius
+157,British Mauritius
+158,RÃ©union
+159,Saar Protectorate
+160,Luxembourg
+161,People's Republic of Zanzibar and Pemba
+162,Sultanate of Zanzibar
+163,Italian Dodecanese
+164,German Samoa
+165,Samoa
+166,Western Samoa Trust Territory
+167,Turkish Republic of Northern Cyprus
+168,Cape Verde
+169,Portuguese Cape Verde
+170,Transnistria
+171,French Polynesia
+172,US occupation of Ryukyu Islands
+173,Colony of Trinidad and Tobago
+174,Trinidad and Tobago
+175,Brunei
+176,Protectorate of Brunei
+177,Protectorate of Brunei (1945â€“1959)
+178,Jordan West Bank
+179,Cyprus
+180,Palestinian National Authority
+181,Sikkim
+182,British Cameroons
+183,Abkhazia
+184,Puerto Rico
+185,British Cyprus
+186,Lebanon
+187,State of Greater Lebanon
+188,Kosovo
+189,Gambia
+190,Gambia Colony and Protectorate
+191,Jamaica
+192,Colony of Jamaica
+193,Qatar
+194,Protectorate of Qatar
+195,Falkland Islands
+196,Bahamas
+197,The Crown Colony of the Bahama Islands
+198,Vanuatu
+199,New Hebrides
+200,Montenegro
+201,East Timor
+202,Portuguese Timor
+203,Kuwait
+204,British Kuwait
+205,Eswatini
+206,Colony of Swaziland
+207,Fiji
+208,Colony of Fiji
+209,New Caledonia
+210,Colony of New Caledonia
+211,Slovenia
+212,El Salvador
+213,Djibouti
+214,French Territory of the Afars and the Issas
+215,French Somaliland
+216,Belize
+217,British Honduras
+218,Rwanda
+219,North Macedonia
+220,Equatorial Guinea
+221,Spanish Guinea
+222,Solomon Islands
+223,British Solomon Islands
+224,Haiti
+225,Burundi
+226,People's Socialist Republic of Albania
+227,Albania
+228,Armenia
+229,Belgium
+230,Lesotho
+231,Basutoland
+232,Guinea-Bissau
+233,Portuguese Guinea
+234,Netherlands
+235,Taiwan
+236,Republic of Formosa
+237,Taiwan under Japanese rule
+238,Bhutan
+239,French Occupation Zone
+240,Switzerland
+241,Morocco
+242,Estonia
+243,Dominican Republic
+244,Slovakia
+245,Spain
+246,Spain under the Restoration
+247,Second Spanish Republic
+248,Spanish State
+249,Malagasy Republic
+250,Costa Rica
+251,Bosnia and Herzegovina
+252,British Indian Ocean Territory
+253,Croatia
+254,Togo
+255,French Togoland
+256,Svalbard
+257,Latvia
+258,Lithuania
+259,Sri Lanka
+260,British Ceylon
+261,Dominion of Ceylon
+262,Ireland
+263,Irish Free State
+264,Georgia
+265,United Arab Emirates
+266,Trucial States
+267,Sierra Leone
+268,Colony of Sierra Leone
+269,Panama
+270,Serbia
+271,Biafra
+272,Czech Republic
+273,Austria
+274,Azerbaijan
+275,Jordan
+276,Portugal
+277,Hungary
+278,People's Republic of Hungary
+279,Republic of Hungary
+280,Liberia
+281,People's Republic of Korea
+282,South Korea
+283,US occupation of Korea
+284,British occupation zone
+285,Serbia and Montenegro
+286,Iceland
+287,Soviet occupation zone
+288,American occupation zone
+289,German Democratic Republic
+290,Guatemala
+291,Cuba
+292,Bulgaria
+293,Honduras
+294,Benin
+295,People's Republic of Benin
+296,French Dahomey
+297,Republic of Dahomey
+298,Malawi
+299,Nyasaland
+300,Eritrea
+301,E
+302,North Korea
+303,People's Committee for North Korea
+304,Soviet Civil Authority
+305,Kingdom of Greece
+306,Czechoslovakia
+307,Nicaragua
+308,Greece
+309,Federation of Malaya
+310,Malayan Union
+311,Malaysia
+312,Japanese-occupied Malaya
+313,Yemen Arab Republic
+314,Mutawakkilite Kingdom of Yemen
+315,Somaliland
+316,Bangladesh
+317,Tajikistan
+318,Surinam
+319,Suriname
+320,Nepal
+321,Tunisia
+322,French protectorate of Tunisia
+323,North Vietnam
+324,South Vietnam
+325,Uruguay
+326,Cambodia
+327,French Cambodia
+328,Syria
+329,Senegal
+330,French Senegal
+331,Kyrgyzstan
+332,Belarus
+333,British Guiana
+334,Guyana
+335,Laos
+336,Kingdom of Laos
+337,Lao Issara
+338,Romania
+339,Ghana
+340,Uganda
+341,Uganda Protectorate
+342,United Kingdom
+343,Guinea
+344,Socialist Federal Republic of Yugoslavia
+345,Ecuador
+346,Gabon
+347,French Gabon
+348,New Zealand
+349,Dominion of New Zealand
+350,Republic of Upper Volta
+351,French Upper Volta
+352,Burkina Faso
+353,Federation of South Arabia
+354,South Yemen
+355,Philippines
+356,Commonwealth of the Philippines
+357,Second Philippine Republic
+358,Italy
+359,Oman
+360,Poland
+361,Norway
+362,Ivory Coast
+363,Colony of Cote d'Ivoire
+364,Empire of Vietnam
+365,State of Vietnam
+366,Vietnam
+367,British Military Administration of Malaya
+368,Finland
+369,French Congo
+370,People's Republic of the Congo
+371,Germany
+372,Zimbabwe
+373,Southern Rhodesia
+374,Paraguay
+375,Cameroon
+376,French Cameroons
+377,Yemen
+378,Ba'athist Iraq
+379,Iraq under Coalition Provisional Authority
+380,Kingdom of Iraq
+381,Republic of Iraq
+382,Sweden
+383,Uzbekistan
+384,Papua New Guinea
+385,Territory of Papua and New Guinea
+386,Turkmenistan
+387,State of Katanga
+388,Somalia
+389,Thailand
+390,France
+391,Botswana
+392,Bechuanaland Protectorate
+393,Kenya
+394,Kenya Colony
+395,Madagascar
+396,Central African Republic
+397,Ubangi-Shari
+398,South Sudan
+399,Somali Republic
+400,Somali Democratic Republic
+401,Kingdom of Afghanistan
+402,Afghanistan
+403,Islamic State of Afghanistan
+404,Republic of Afghanistan
+405,Democratic Republic of Afghanistan
+406,Union of Burma
+407,British Burma
+408,Myanmar
+409,Socialist Republic of the Union of Burma
+410,Burma/Myanmar under the State Peace and Development Council
+411,State of Burma
+412,Chile
+413,Zambia
+414,Northern Rhodesia
+415,Turkey
+416,Mozambique
+417,Portuguese Mozambique
+418,People's Republic of Mozambique
+419,South-West Africa
+420,Federation of Nigeria
+421,Colony and Protectorate of Nigeria
+422,Pakistan
+423,Venezuela
+424,People's Republic of China
+425,Dominion of Pakistan
+426,Egypt
+427,Tanganyika
+428,Tanganyika Territory
+429,Tanzania
+430,Republic of Egypt
+431,Kingdom of Egypt
+432,Mauritania
+433,Colonial Mauritania
+434,Bolivia
+435,Ethiopia
+436,Abyssinia
+437,Colombia
+438,Chad
+439,Niger
+440,Colony of Niger
+441,United Arab Republic
+442,South Africa
+443,Angola
+444,Portuguese Angola
+445,Ethiopian-Eritrean Federation
+446,Mali
+447,French Sudan
+448,Territory of Chad
+449,Peru
+450,Mali Federation
+451,Indonesia
+452,Mongolia
+453,Mongolian People's Republic
+454,Kingdom of Libya
+455,Libyan Arab Republic
+456,Iran
+457,Interim Government of Iran
+458,Libyan Arab Jamahiriya
+459,Libya
+460,Sudan
+461,Dutch East Indies
+462,Netherlands New Guinea
+463,Saudi Arabia
+464,Mexico
+465,Greenland
+466,Algeria
+467,French Algeria
+468,Democratic Republic of the Congo
+469,Zaire
+470,Belgian Congo
+471,Anglo-Egyptian Sudan
+472,Kazakhstan
+473,Argentina
+474,Australia
+475,Brazil
+476,Republic of China (1912â€“1949)
+477,United States of America
+478,Canada
+479,Russia
+480,Soviet Union
+481,French Comoros
+482,Antarctica
+483,Moldova
