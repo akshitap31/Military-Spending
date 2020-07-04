@@ -61,18 +61,6 @@ def gdp(year):
     gdp_df = pd.read_sql(query, conn)
     return gdp_df.to_json(orient="values")
 
-<<<<<<< HEAD
-@app.route("/all_data/<year>")
-def all_data(year):
-    query = f"""SELECT gdp.name, tms."{year}" as tms, gdp."{year}" as gdp 
-                FROM gdp
-                JOIN tms ON gdp.code == tms.code
-                WHERE (tms."{year}" IS NOT NULL) OR (gdp."{year}" IS NOT NULL);"""
-                
-    conn = engine.connect()
-    df = pd.read_sql(query, conn).set_index('name')
-    return df.to_json(orient="index")
-=======
 @app.route("/maptms/<year>")
 def maptms(year):
     query = f"""SELECT name, "{year}" FROM maptms ORDER BY 2 DESC LIMIT 10"""
@@ -87,12 +75,16 @@ def mapgdp(year):
     mapgdp_df = pd.read_sql(query, conn)
     return mapgdp_df.to_json(orient="values")
 
->>>>>>> a2063226568fda824b51f7e01d75f5cca0741a42
-
-@app.route("/Choropleth")
-@app.route("/Choropleth/<year>")
-def showMap(year = 2018):
-    return render_template("/Choropleth/index.html",year = year)
+@app.route("/all_data/<year>")
+def all_data(year):
+    query = f"""SELECT gdp.map_name as name, tms."{year}" as tms, gdp."{year}" as gdp 
+                FROM mapgdp as gdp
+                JOIN maptms as tms ON gdp.code == tms.code
+                WHERE ((tms."{year}" IS NOT NULL) OR (gdp."{year}" IS NOT NULL)) AND gdp.map_name <> 0;"""
+                
+    conn = engine.connect()
+    df = pd.read_sql(query, conn).set_index('name')
+    return df.to_json(orient="index")
 
 if __name__ == "__main__":
     app.run(debug=True)
