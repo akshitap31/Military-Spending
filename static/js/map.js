@@ -1,3 +1,7 @@
+
+function UpdateMap(){
+
+
 ////CREATE URLs to retrieve country data
 // Store API query variables
 const API_KEY = "pk.eyJ1IjoiZXZhbnMzODMiLCJhIjoiY2tiaWlkYzF4MGRoaDJzdGR2enl0dnpiZyJ9.8wRWWOQVll_mZpvv_bP8tw";
@@ -17,12 +21,16 @@ var ThenMapURL = `${CountryURL}${Year}${CountryProps}`
 var SpendURL = `/all_data/${Year}`;
 //console.log(SpendURL)
 
+var myMap = null;
+
 // Creating map object
+
 var myMap = L.map("map", {
   center: [51.47, 0.00],
   //center: [36.78,-119.42],
   zoom: 3
 })
+
 
 
 
@@ -148,6 +156,11 @@ var mapStyle = {
   
   }).addTo(myMap);
 
-
+  var button = document.getElementById("refresh").addEventListener("click", function(){
+      myMap.remove()
+      UpdateMap()
+    });
 });
 
+}
+UpdateMap();
