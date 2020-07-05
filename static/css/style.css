@@ -85,10 +85,12 @@ a {
   border: 0;
   border-radius: 10px;
 }
+
 #second-row{
   /* padding-top: 50px; */
   margin-top: 50px;
 }
+
 .line {
   fill: none;
   stroke-width: 2px;
@@ -115,9 +117,11 @@ a {
 .amt-text {
   fill: green;
 }
+
 .error-text{
   vertical-align: text-top;
 }
+
 .tooltip1 {
   display: none;
   /* position: absolute; */
@@ -131,6 +135,7 @@ a {
   border: 0;
   border-radius: 10px;
 }
+
 .card{
   margin-top:30px;
 }
