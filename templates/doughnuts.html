@@ -9,10 +9,29 @@
 </head>
 
 <body>
+  <div class="navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" style="background-color: #009933; color: white" href="index.html">MILITARY</a>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto" style="list-style: none;">
+                <li class="nav-item">
+                    <a class="nav-link" href="cleaning.html">DATA CLEANING</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sources.html">SOURCES</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+  
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-12">
-        <h1>Military Posessions and Strength per Country Vs. World Average</h1>
+        <h1 style="color:#009933">Military Posessions and Strength per Country Vs. World Average</h1>
     <!-- <div class="row"> -->
       <!-- <div class="col-sm-12  col-md-9"> -->
         <select id="selDataset" class="dropdown">
@@ -189,21 +208,21 @@
       </div>
         <div class="row">
         <div id="doughnut" class="col-sm-12 col-md-6">
-          <canvas id="doughnut-chart" width="800" height="650"></canvas>
+          <canvas class="plot-doughnut"id="doughnut-chart" width="800" height="650"></canvas>
           <!-- We append our chart here. -->
         </div>
         <div id="doughnut2" class="col-sm-12 col-md-6">
-          <canvas id="doughnut-chart2" width="800" height="650"></canvas>
+          <canvas class="plot-doughnut"id="doughnut-chart2" width="800" height="650"></canvas>
           <!-- We append our chart here. -->
         </div>
       </div>
       <div class="row", id="second-row">
         <div id="doughnut3" class="col-sm-12 col-md-6">
-          <canvas id="doughnut-chart3" width="800" height="550"></canvas>
+          <canvas class="plot-doughnut"id="doughnut-chart3" width="800" height="550"></canvas>
           <!-- We append our chart here. -->
         </div>
         <div id="doughnut4" class="col-sm-12 col-md-6">
-          <canvas id="doughnut-chart4" width="800" height="550"></canvas>
+          <canvas class="plot-doughnut"id="doughnut-chart4" width="800" height="550"></canvas>
           <!-- We append our chart here. -->
         
       </div>
