@@ -39,13 +39,25 @@ app = Flask(__name__)
 @app.route("/")
 def welcome():
     return render_template("index.html")
-    # return (
-    #     f"Welcome to the Military Spending API!<br/>"
-    #     f"Available Routes:<br/>"
-    #     f"To return a JSON list of Total Military Spending, append: /api/v1.0/tms<br/>"
-    #     f"To return a JSON list of spending as a percentage of GDP, append: /api/v1.0/gdp<br/>"
-    # )
 
+
+@app.route("/sources")
+def sources():
+    return render_template("sources.html")
+
+
+@app.route("/country")
+def country():
+    return render_template("country.html")
+
+@app.route("/doughnuts")
+def doughnuts():
+    return render_template("doughnuts.html")
+
+
+@app.route("/cleaning")
+def cleaning():
+    return render_template("cleaning.html")
 
 @app.route("/tms/<year>")
 def tms(year):

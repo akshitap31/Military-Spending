@@ -2,7 +2,7 @@
 font-family: "Agency FB Regular";
 src: url(BlackOpsOne-Regular.ttf) format("truetype");
 }
-h1,h3,h5,p,text { font-family: "Agency FB Regular", sans-serif }
+h1,h3,h5,p,text,a { font-family: "Agency FB Regular", sans-serif }
 
 #heading {
   background-color: #009933;
@@ -42,7 +42,7 @@ h1,h3,h5,p,text { font-family: "Agency FB Regular", sans-serif }
 
 .navbar {
   background-color: #009933;
-  font-size: 25px; 
+  font-size: 28px; 
 }
 .nav-link {
   background-color: #009933;
@@ -70,7 +70,7 @@ color: #009933;
 }
 a {
   color: white;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .tooltip {
