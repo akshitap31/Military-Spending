@@ -85,3 +85,7 @@ a {
   border: 0;
   border-radius: 10px;
 }
+#second-row{
+  /* padding-top: 50px; */
+  margin-top: 50px;
+}
