@@ -1,0 +1,29 @@
+.line {
+  fill: none;
+  stroke-width: 2px;
+}
+
+.green {
+  stroke: green;
+}
+
+.blue {
+  stroke: blue;
+}
+
+.text {
+  font-size: 16px;
+  text-anchor: middle;
+}
+
+.gdp-text {
+  fill: blue;
+  padding-bottom: 20px;
+}
+
+.amt-text {
+  fill: green;
+}
+.error-text{
+  vertical-align: text-top;
+}

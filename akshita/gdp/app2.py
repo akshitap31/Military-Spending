@@ -48,11 +48,14 @@ def count_names():
 @app.route("/amountdata/<country>")
 def amount_data(country):
     conn = engine.connect()
-    a_df = pd.read_sql('SELECT * FROM tms WHERE name = "'+ str(country)+'"', conn)
-    a_df=a_df.fillna(0)
-    a_df=a_df.loc[:, (a_df != 0).any(axis=0)]
-    a_df=a_df.drop(['name', 'code'], axis=1)
-    output=a_df.to_json(orient="split")
+    df = pd.read_sql('SELECT * FROM tms WHERE name = "'+ str(country)+'"', conn)
+    df=df.fillna(0)
+    df=df.loc[:, (df != 0).any(axis=0)]
+    df=df.drop(['name', 'code'], axis=1)
+    df=df.transpose().reset_index()
+    df.columns=["year", "amount"]
+    df["amount"]=df["amount"]/100000
+    output=df.to_json(orient="records")
     return  output 
 @app.route("/gdpdata/<country>")
 def gdp_data(country):
@@ -61,7 +64,9 @@ def gdp_data(country):
     gdpdf=gdpdf.fillna(0)
     gdpdf=gdpdf.loc[:, (gdpdf != 0).any(axis=0)]
     gdpdf=gdpdf.drop(['name', 'code'], axis=1)
-    gdp_output=gdpdf.to_json(orient="split")
+    gdpdf=gdpdf.transpose().reset_index()
+    gdpdf.columns=["year", "gdp"]
+    gdp_output=gdpdf.to_json(orient="records")
     return  gdp_output
 
 @app.route("/ranktable/<country>")
