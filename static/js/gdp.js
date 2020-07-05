@@ -139,19 +139,22 @@ function updatePlotly() {
             .attr('x2', xTimeScale(year))
             .attr('y1', 0)
             .attr('y2', height);
-           tooltip1
-           tooltip
-           // .selectAll()
-           // .data(data)
-           // .enter()
-           // .append('div')
-           .style('color', 'red')  
-           .style('display', 'block')
-           .style('position','absolute')
-           .style('left', d3.event.pageX + 20 +"px")
-           .style('top', d3.event.pageY - 20+"px")
-           .html("<p>"+year+"</p>");
-            console.log(tooltip1)
+          tooltip1.html(year)
+          //  .selectAll("div")
+            .data(amtData) 
+          //  .enter()
+          //  .append('div')
+            .style('color', 'black')  
+            .style('display', 'block')
+            .style('position','absolute')
+            .style('left', d3.event.pageX + 2 +"px")
+            .style('top', d3.event.pageY + 2+"px")
+            .html(function(){
+            // console.log(amt_dict.year)
+            var output=amtData.find(a=> a.year == year).amount;
+            var gdpoutput=gdpData.find(g=> g.year == year).gdp;
+            return "<p> Year <b>"+ year +"</b><hr><b>Amount: </b>"+output+"<br> <b>% of GDP: </b>"+gdpoutput+" </p>"
+          });
          
         } 
         

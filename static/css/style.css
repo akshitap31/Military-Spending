@@ -118,3 +118,16 @@ a {
 .error-text{
   vertical-align: text-top;
 }
+.tooltip1 {
+  /* display: none; */
+  /* position: absolute; */
+  width: 170px;
+  height: 130px;
+  padding: 6px;
+  padding-top: 6px;
+  font: 16px sans-serif;
+  text-align: center;
+  background:lightgrey;
+  border: 0;
+  border-radius: 10px;
+}

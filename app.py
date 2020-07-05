@@ -105,9 +105,11 @@ def rank_table(country):
     df["Amount (in 1000 USD)"]=df["Amount (in 1000 USD)"]/1000
     gdp_df=gdp_df.loc[gdp_df["name"]==country].transpose().reset_index().dropna().drop(0).drop(1)
     gdp_df.columns=["Year","Amount (in % of GDP)"]
+    df=df.loc[df["Amount (in 1000 USD)"] !=0]
+    gdp_df=gdp_df.loc[gdp_df["Amount (in % of GDP)"] !=0]
     merged_df=df.merge(gdp_df, on="Year", how="inner")
-    merged_df=merged_df.merge(amt_df, on="Year", how="inner")
-    merged_df=merged_df.merge(gdprank_df, on="Year", how="inner")
+    merged_df=merged_df.merge(amt_df, on="Year", how="left")
+    merged_df=merged_df.merge(gdprank_df, on="Year", how="left")
     data=merged_df.to_json(orient="records")
     # data=merged_df.to_html(classes="table-striped", index=False).replace("\n","")
     return data
