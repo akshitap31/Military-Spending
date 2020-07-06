@@ -18,7 +18,7 @@ var margin = {
   top: 50,
   right: 50,
   bottom: 100,
-  left: 70
+  left: 90
 };
 
 var width = svgWidth - margin.left - margin.right;
@@ -160,8 +160,8 @@ chartGroup.append('text').html('Year').attr('x', width/2).attr('y', height+40);
      .style('color', 'black')  
      .style('display', 'block')
      .style('position','absolute')
-     .style('left', d3.event.pageX + 2+"px")
-     .style('top', d3.event.pageY + 2+"px")
+     .style('left', d3.event.pageX -150+"px")
+     .style('top', d3.event.pageY -350+"px")
      .html(function(){
       // console.log(amt_dict.year)
       var output=amtData.find(a=> a.year == year).amount;
