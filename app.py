@@ -176,12 +176,13 @@ def personnel_info(country):
     personnel=personnel_df.to_json(orient="records")
     return personnel
 
-@app.route("/all_data/<year>")
-def all_data(year):
-    query = f"""SELECT gdp.map_name as name, tms."{year}" as tms, gdp."{year}" as gdp 
+@app.route("/all_data/<year>/<cat>")
+def all_data(year, cat):
+    query = f"""SELECT gdp.map_name as name, gdp.name as src_name, tms."{year}" as tms, gdp."{year}" as gdp 
                 FROM mapgdp as gdp
                 JOIN maptms as tms ON gdp.code == tms.code
-                WHERE ((tms."{year}" IS NOT NULL) OR (gdp."{year}" IS NOT NULL)) AND gdp.map_name <> 0;"""
+                WHERE ((tms."{year}" IS NOT NULL) OR (gdp."{year}" IS NOT NULL)) AND gdp.map_name <> 0
+                ORDER BY {cat} DESC"""
                 
     conn = engine.connect()
     df = pd.read_sql(query, conn).set_index('name')
