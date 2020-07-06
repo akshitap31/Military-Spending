@@ -1,4 +1,12 @@
-// Make responsive function
+
+
+// Call updatePlotly() when a change takes place to the DOM
+// d3.select(window).on("resize", updatePlotly)
+d3.selectAll("#selDataset").on("change", updatePlotly);
+d3.select(window).on("resize", updatePlotly)
+// This function is called when a dropdown menu item is selected
+function updatePlotly() {
+  // Make responsive function
 var svgArea = d3.select("#gdp").select("svg");
 var svgWidth = parseInt(d3.select("#gdp").style("width"));
 var svgHeight = svgWidth - svgWidth / 3.9;
@@ -15,13 +23,6 @@ var margin = {
 
 var width = svgWidth - margin.left - margin.right;
 var height = svgHeight - margin.top - margin.bottom;
-
-// Call updatePlotly() when a change takes place to the DOM
-// d3.select(window).on("resize", updatePlotly)
-d3.selectAll("#selDataset").on("change", updatePlotly);
-
-// This function is called when a dropdown menu item is selected
-function updatePlotly() {
 // Use D3 to select the dropdown menu
 d3.select("#gdp").html("");
 d3.select("tbody").html("");
@@ -159,13 +160,13 @@ chartGroup.append('text').html('Year').attr('x', width/2).attr('y', height+40);
      .style('color', 'black')  
      .style('display', 'block')
      .style('position','absolute')
-     .style('left', d3.event.pageX + 2 +"px")
+     .style('left', d3.event.pageX + 2+"px")
      .style('top', d3.event.pageY + 2+"px")
      .html(function(){
       // console.log(amt_dict.year)
       var output=amtData.find(a=> a.year == year).amount;
       var gdpoutput=gdpData.find(g=> g.year == year).gdp;
-      return "<p> Year <b>"+ year +"</b><hr><b>Amount: </b>"+formatter.format(output)+"<br> <b>% of GDP: </b>"+gdpoutput.toFixed(2)+" </p>"
+      return "<p> Year"+ year +"<br>Amount: "+formatter.format(output)+"<br>% of GDP: "+gdpoutput.toFixed(2)+" </p>"
     });  
   } 
 
