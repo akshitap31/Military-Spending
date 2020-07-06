@@ -1,170 +1,85 @@
-// This code works to select the dropdown values from index.html
-function parseSelection() {
-    var year = d3.select("#selTime").property("value");
-    var cat = d3.select("#selCategory").property("value");
+// import * as d3 from "d3";
 
-    // console.log(year);
-    // console.log(cat);
-
-    var path=`/${cat}/${year}`;
-    // console.log(path);
-
-    d3.json(path).then(function(data) {
-      var names = data.map(row => row[0]);
-      var values = data.map(row => row[1]);
-      console.log(values);
-
-    //   bar(names,values,cat,year);
-    //   chartBar(names,values,cat,year);
-    });
-}
-
-function chartBar(xData, yData, cat, year) {
-  console.log(yData);
-  var yDataScaled = 0.00;
-  if (cat === "gdp") {
-    yDataScaled = yData.map(data => data);
-  }
-  else {
-    yDataScaled = yData.map(data => data/1000000000);
-  }
-
-  var CategoryTitle = "";
-  if (cat === "gdp") {
-    CategoryTitle = "Gross Domestic Product"
-  }
-  else {
-    CategoryTitle = "Total Military Spend"
-  }
-
-  var yTitle = "";
-  if (cat === "gdp") {
-    yTitle = "Percentage of GDP Spent"
-  }
-  else {
-    yTitle = "Total Spend in USD (Billions)"
-  }
-
-  // var button = document.getElementById("submitButton");
-  //   submitButton.addEventListener("click", function(){
-  //   myChart.destroy();
-  // });
-
-  var ctx = document.getElementById('myChart').getContext('2d');
-  var myChart = new Chart(ctx, {
-      type: 'bar',
-      data: {
-          labels: xData,
-          datasets: [{
-              label: yTitle,
-              data: yDataScaled,
-              backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)',
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)'
-            ],
-              borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)',
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)'
-            ],
-              borderWidth: 1
-          }]
-      },
-      options: {
-          animation: {
-            duration: 2000,
-          },
-          scales: {
-              yAxes: [{
-                  ticks: {
-                      beginAtZero: true
-                  }
-              }]
-          }
-      }
-  });
-  var button = document.getElementById("refresh");
-    refresh.addEventListener("click", function(){
-    myChart.destroy();
-});
-}
-
-
-function bar(xData, yData, cat, year){
-  var CategoryTitle = "";
-  if (cat === "gdp") {
-    CategoryTitle = "Gross Domestic Product"
-  }
-  else {
-    CategoryTitle = "Total Military Spend"
-  }
-
-  var yTitle = "";
-  if (cat === "gdp") {
-    yTitle = "Percentage of GDP Spent"
-  }
-  else {
-    yTitle = "Total Spend in USD"
-  }
-
-  var trace1 = {
-    x: xData,    
-    y: yData,      
-    text: yData,
-    name: `Top Ten Countries in ${year} By ${CategoryTitle}`,
-    type: "bar"
-  };
-
-  var layout1 = {
-    title: `Top Ten Countries in ${year} By ${CategoryTitle}`,
-    xaxis:{title: "Country"},
-    yaxis:{title: `${yTitle}`},
+function BarChartRace(chartId, extendedSettings) {
+  const chartSettings = {
+    width: 500,
     height: 400,
-    width: 600,
-    margin: {
-      l: 100,
-      r: 100,
-      t: 100,
-      b: 100
-    }
+    padding: 40,
+    titlePadding: 5,
+    columnPadding: 0.4,
+    ticksInXAxis: 5,
+    duration: 3500,
+    ...extendedSettings
   };
 
-  // creating data variable 
-  var data1 = [trace1];
+  chartSettings.innerWidth = chartSettings.width - chartSettings.padding * 2;
+  chartSettings.innerHeight = chartSettings.height - chartSettings.padding * 2;
 
-  // Create your bar chart using plotly
-  Plotly.newPlot("bar", data1, layout1);
-}
+  const chartDataSets = [];
+  let chartTransition;
 
-// Initialize Page
-function init() {
-  var year = 2018;
-  var cat = "tms";
-  var path=`/${cat}/${year}`;
-  // console.log(path);
+  const chartContainer = d3.select(`#${chartId} .chart-container`);
+  const xAxisContainer = d3.select(`#${chartId} .x-axis`);
+  const yAxisContainer = d3.select(`#${chartId} .y-axis`);
 
-  d3.json(path).then(function(data) {
-    var names = data.map(row => row[0]);
-    var values = data.map(row => row[1]);
-    console.log(values);
+  const xAxisScale = d3.scaleLinear().range([0, chartSettings.innerWidth]);
 
-    // bar(names,values,cat,year);
-    // chartBar(names,values,cat,year);
-  });
-}
-  
-init();
-  
+  const yAxisScale = d3
+    .scaleBand()
+    .range([0, chartSettings.innerHeight])
+    .padding(chartSettings.columnPadding);
+
+  d3.select(`#${chartId}`)
+    .attr("width", chartSettings.width)
+    .attr("height", chartSettings.height);
+
+  chartContainer.attr(
+    "transform",
+    `translate(${chartSettings.padding} ${chartSettings.padding})`
+  );
+
+  chartContainer
+    .select(".current-date")
+    .attr(
+      "transform",
+      `translate(${chartSettings.innerWidth} ${chartSettings.innerHeight})`
+    );
+
+  function draw({ dataSet, date: currentDate }, transition) {
+    // we will implement this function
+
+    return this;
+  }
+
+  function addDataset(dataSet) {
+    chartDataSets.push(dataSet);
+
+    return this;
+  }
+
+  function addDatasets(dataSets) {
+    chartDataSets.push.apply(chartDataSets, dataSets);
+
+    return this;
+  }
+
+  function setTitle(title) {
+    d3.select(".chart-title")
+      .attr("x", chartSettings.width / 2)
+      .attr("y", -chartSettings.padding / 2)
+      .text(title);
+
+    return this;
+  }
+
+  function render() {
+    // we will implement this function
+    return this;
+  }
+
+  return {
+    addDataset,
+    addDatasets,
+    render,
+    setTitle
+  };
