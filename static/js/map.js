@@ -18,7 +18,7 @@ var ThenMapURL = `${CountryURL}${Year}${CountryProps}`
 
 
 ///CREATE URL to retrieve gdp and tms data
-var SpendURL = `/all_data/${Year}`;
+var SpendURL = `/all_data/${Year}/${Cat}`;
 //console.log(SpendURL)
 
 var myMap = null;
@@ -42,26 +42,27 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
   tileSize: 512,
   maxZoom: 18,
   zoomOffset: -1,
-  id: "mapbox/streets-v11", //"mapbox.boundaries-adm1-v3", //
+  id: "mapbox.boundaries-adm1-v3", //"mapbox/streets-v11", //
   accessToken: API_KEY
 }).addTo(myMap);
-
-
-var mapStyle = {
-  color: "white",
-  fillColor: "blue",
-  fillOpacity: 0.8,
-  weight: 1.5
-};
 
  var promises = [d3.json(SpendURL),d3.json(ThenMapURL)];
  Promise.all(promises).then(function(responses) {
   
+  var topten = [];
+  
+  for (var key in responses[0]) {
+      if (responses[0].hasOwnProperty(key)) {
+          topten.push(key);
+      }
+  }
+  topten = topten.slice(0,9)
 
   responses[1]['features'].forEach(feature => {
     if (responses[0][feature['properties']['name']]){
       feature['properties']['tms'] =responses[0][feature['properties']['name']]['tms']
       feature['properties']['gdp'] =responses[0][feature['properties']['name']]['gdp']
+      feature['properties']['src_name'] =responses[0][feature['properties']['name']]['src_name']
     } else {
       feature['properties']['tms'] = null
       feature['properties']['gdp'] = null
@@ -73,24 +74,48 @@ var mapStyle = {
   var values = responses[1].features.map(function(feature) {
     return feature.properties[Cat];
   });
+
   console.log(responses)
 
   var getColor = d3
     .scaleLinear()
-    .domain(d3.extent(values)) // get the min and max values
-    .range(d3.schemeReds[5]); // set 5 color buckets
+    .domain(d3.extent(values.slice(9,values.length))) // get the min and max values
+    .range(d3.schemeGreys[5]); // set 5 color buckets
+
+  
+    var colorList = []
+    Chart.helpers.each(Chart.instances, function(instance){
+
+        colorList = instance.data.datasets[0].backgroundColor
+        console.log(colorList)
+    });
+
 
   function style(feature) {
-    //calculate percent
+    
+
     if (feature.properties[Cat]) {
       // check if valid (no 0s or undefined)
-      return {
+      if(topten.includes(feature.properties['name'])){
+        var colorIndex = topten.indexOf(feature.properties['name']);
+
+
+        return {
         
-        fillColor: getColor(feature.properties[Cat]),
-        fillOpacity: 0.7,
-        weight: 0.5,
-        color: 'rgba(255, 255, 255, 0.8)'
-      };
+          fillColor: colorList[colorIndex],
+          fillOpacity: 0.7,
+          weight: 0.5,
+          //color: 'rgba(255, 255, 255, 0.8)'
+        }  
+
+      }else{
+        return {
+        
+          fillColor: getColor(feature.properties[Cat]),
+          fillOpacity: 0.7,
+          weight: 0.5,
+          color: 'rgba(255, 255, 255, 0.8)'
+        };}
     } else {
       return {
         
@@ -145,7 +170,7 @@ var mapStyle = {
           clearTimeout(timeout);
           layer = event.target;
           layer.setStyle({
-            fillOpacity: 0.5
+            fillOpacity: 0.7
           });
           
         }
