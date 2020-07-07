@@ -76,7 +76,7 @@ d3.json("/timelinegdp").then(jsonData => {
 
     // margins
     var margin = {
-      top: 30,
+      top: 90,
       right: 70,
       bottom: 40,
       left: 170
@@ -204,7 +204,7 @@ d3.json("/timeline").then(jsonData => {
 
     // margins
     var margin = {
-      top: 30,
+      top: 90,
       right: 70,
       bottom: 40,
       left: 170
