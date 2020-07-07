@@ -54,9 +54,9 @@
 <ul>
     <li><b>BarChartGDP.jpg</b> - Screenshot of the bar chart representing spending as a % of GDP on index.html.</li>
     <li><b>BarChartTMS.jpg</b> - Screenshot of the bar chart representing total military spending on index.html.</li>
+    <li><b>CountryNames2.png</b> - Screenshot of country names used for mapping.</li>
     <li><b>doughnuts.jpg</b> - Screenshot of two of the doughnut charts on doughnuts.html.</li>
     <li><b>header.jpg</b> - The header image for our README.md.</li>
-    <li><b>erd.jpg</b> - The ERD for our SQLite database.</li>
     <li><b>map.jpg</b> - Screenshot of the chloropleth on index.html.</li>
     <li><b>Thenmap.jpg</b> - Screenshot of the basic chloropleth from the API source.</li>
     <li><b>WBcleaning.jpg</b> - Screenshot of the code used to clean the Thenmap and World Bank data sets.</li>
@@ -89,7 +89,6 @@
 <br>
 
 <h2><center>Data Structure</center></h2>
-<h3>ERD</h3>        
 <h3>Tables</h3>
 <ul>
     <li><b>gdp</b> - This table is a list of all countries with their country name, country code, and columns for each year between 1960 and 2018 representing the spending as a percentage of each country's GDP.</li>
