@@ -53,6 +53,9 @@ def country():
 @app.route("/doughnuts")
 def doughnuts():
     return render_template("doughnuts.html")
+@app.route("/barrace")
+def barrace():
+    return render_template("barrace.html")
 
 
 @app.route("/cleaning")
