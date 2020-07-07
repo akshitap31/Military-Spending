@@ -187,6 +187,37 @@ def all_data(year, cat):
     conn = engine.connect()
     df = pd.read_sql(query, conn).set_index('name')
     return df.to_json(orient="index")
-
+@app.route("/colors")
+def colors():
+    df=pd.read_csv("colors.csv")
+    output=df.to_json(orient="records")
+    return output
+@app.route("/timeline")
+def timeline_data():
+    conn = engine.connect()
+    df = pd.read_sql("SELECT * FROM tms", conn)
+    df=df.fillna(0)
+    my_dict={}
+    for colname in df.columns[2:]:
+            my_dict[colname]= [{"name": row["name"], "value": row[colname]} for index, row in df.iterrows()]
+    for lis in my_dict:
+        my_dict[lis]=sorted(my_dict[lis], key= lambda i:i["value"], reverse=True)
+        for dic in my_dict[lis]:
+            dic["rank"]=my_dict[lis].index(dic)+1
+    return my_dict
+@app.route("/timelinegdp")
+def timeline_gdp():
+    conn = engine.connect()
+    df = pd.read_sql("SELECT * FROM gdp", conn)
+    df=df.fillna(0).round(2)
+    my_dict={}
+    for colname in df.columns[2:]:
+            my_dict[colname]= [{"name": row["name"], "value": row[colname]} for index, row in df.iterrows()]
+    for lis in my_dict:
+        my_dict[lis]=sorted(my_dict[lis], key= lambda i:i["value"], reverse=True)
+        for dic in my_dict[lis]:
+            dic["rank"]=my_dict[lis].index(dic)+1
+    return my_dict
+    
 if __name__ == "__main__":
     app.run(debug=True)
