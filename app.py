@@ -54,6 +54,9 @@ def country():
 def doughnuts():
     return render_template("doughnuts.html")
 
+@app.route("/barrace")
+def barrace():
+    return render_template("barrace.html")
 
 @app.route("/cleaning")
 def cleaning():
@@ -220,4 +223,4 @@ def timeline_gdp():
     return my_dict
     
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
