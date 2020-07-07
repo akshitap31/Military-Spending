@@ -1,5 +1,6 @@
 function disableBtn() {
   document.getElementById("myBtn").disabled = true;
+  // d3.select("#myBtn").style("font")  
   document.getElementById("selDataset").disabled = true;
   
 }
@@ -12,7 +13,8 @@ function enableBtn() {
 // var colors=[]
 // d3.select(window).on("resize", updateBar)
 d3.selectAll("#selDataset").on("change", updateBar);
-d3.select("buttton").on("click", updateBar);
+d3.select("#myBtn").on("click", updateBar);
+  // console.log("hi")
 // This function is called when a dropdown menu item is selected
 function updateBar() {
   // Use D3 to select the dropdown menu

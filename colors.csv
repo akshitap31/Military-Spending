@@ -1,295 +1,295 @@
 ﻿country,color
-Aruba,"""#F08080"""
-Afghanistan,"""#FA8072"""
-Angola,"""#E9967A"""
-Albania,"""#FFA07A"""
-Andorra,"""#DC143C"""
-United Arab Emirates,"""#FF0000"""
-Argentina,"""#B22222"""
-Armenia,"""#8B0000"""
-American Samoa,"""#FFC0CB"""
-Antigua and Barbuda,"""#FFB6C1"""
-Australia,"""#FF69B4"""
-Austria,"""#FF1493"""
-Azerbaijan,"""#C71585"""
-Burundi,"""#DB7093"""
-Belgium,"""#FF7F50"""
-Benin,"""#FF6347"""
-Burkina Faso,"""#FF4500"""
-Bangladesh,"""#FF8C00"""
-Bulgaria,"""#FFA500"""
-Bahrain,"""#FFD700"""
-"Bahamas, The","""#FFFF00"""
-Bosnia and Herzegovina,"""#FFFFE0"""
-Belarus,"""#FFFACD"""
-Belize,"""#FAFAD2"""
-Bermuda,"""#FFEFD5"""
-Bolivia,"""#FFE4B5"""
-Brazil,"""#FFDAB9"""
-Barbados,"""#EEE8AA"""
-Brunei Darussalam,"""#F0E68C"""
-Bhutan,"""#BDB76B"""
-Botswana,"""#E6E6FA"""
-Central African Republic,"""#D8BFD8"""
-Canada,"""#DDA0DD"""
-Switzerland,"""#EE82EE"""
-Channel Islands,"""#DA70D6"""
-Chile,"""#FF00FF"""
-China,"""#FF00FF"""
-Cote d'Ivoire,"""#BA55D3"""
-Cameroon,"""#9370DB"""
-"Congo, Dem. Rep.","""#8A2BE2"""
-"Congo, Rep.","""#9400D3"""
-Colombia,"""#9932CC"""
-Comoros,"""#8B008B"""
-Cabo Verde,"""#800080"""
-Costa Rica,"""#663399"""
-Cuba,"""#4B0082"""
-Curacao,"""#7B68EE"""
-Cayman Islands,"""#6A5ACD"""
-Cyprus,"""#483D8B"""
-Czech Republic,"""#ADFF2F"""
-Germany,"""#7FFF00"""
-Djibouti,"""#7CFC00"""
-Dominica,"""#00FF00"""
-Denmark,"""#32CD32"""
-Dominican Republic,"""#98FB98"""
-Algeria,"""#90EE90"""
-Ecuador,"""#00FA9A"""
-"Egypt, Arab Rep.","""#00FF7F"""
-Eritrea,"""#3CB371"""
-Spain,"""#2E8B57"""
-Estonia,"""#228B22"""
-Ethiopia,"""#8000"""
-Finland,"""#6400"""
-Fiji,"""#9ACD32"""
-France,"""#6B8E23"""
-Faroe Islands,"""#808000"""
-"Micronesia, Fed. Sts.","""#556B2F"""
-Gabon,"""#66CDAA"""
-United Kingdom,"""#8FBC8F"""
-Georgia,"""#20B2AA"""
-Ghana,"""#008B8B"""
-Gibraltar,"""#8080"""
-Guinea,"""#00FFFF"""
-"Gambia, The","""#00FFFF"""
-Guinea-Bissau,"""#E0FFFF"""
-Equatorial Guinea,"""#AFEEEE"""
-Greece,"""#7FFFD4"""
-Grenada,"""#40E0D0"""
-Greenland,"""#48D1CC"""
-Guatemala,"""#00CED1"""
-Guam,"""#5F9EA0"""
-Guyana,"""#4682B4"""
-"Hong Kong SAR, China","""#B0C4DE"""
-Honduras,"""#B0E0E6"""
-Croatia,"""#ADD8E6"""
-Haiti,"""#87CEEB"""
-Hungary,"""#87CEFA"""
-Indonesia,"""#00BFFF"""
-Isle of Man,"""#1E90FF"""
-India,"""#6495ED"""
-Not classified,"""#41690"""
-Ireland,"""#0000FF"""
-"Iran, Islamic Rep.","""#0000CD"""
-Iraq,"""#00008B"""
-Iceland,"""#80"""
-Israel,"""#191970"""
-Italy,"""#FFF8DC"""
-Jamaica,"""#FFEBCD"""
-Jordan,"""#FFE4C4"""
-Japan,"""#FFDEAD"""
-Kazakhstan,"""#F5DEB3"""
-Kenya,"""#DEB887"""
-Kyrgyz Republic,"""#D2B48C"""
-Cambodia,"""#BC8F8F"""
-Kiribati,"""#F4A460"""
-St. Kitts and Nevis,"""#DAA520"""
-"Korea, Rep.","""#B8860B"""
-Kuwait,"""#CD853F"""
-Lao PDR,"""#D2691E"""
-Lebanon,"""#8B4513"""
-Liberia,"""#A0522D"""
-Libya,"""#A52A2A"""
-St. Lucia,"""#800000"""
-Liechtenstein,"""#FFFFFF"""
-Sri Lanka,"""#FFFAFA"""
-Lesotho,"""#F0FFF0"""
-Lithuania,"""#F5FFFA"""
-Luxembourg,"""#F0FFFF"""
-Latvia,"""#F0F8FF"""
-"Macao SAR, China","""#F8F8FF"""
-St. Martin (French part),"""#F5F5F5"""
-Morocco,"""#FFF5EE"""
-Monaco,"""#F5F5DC"""
-Moldova,"""#FDF5E6"""
-Madagascar,"""#FFFAF0"""
-Maldives,"""#FFFFF0"""
-Mexico,"""#FAEBD7"""
-Marshall Islands,"""#FAF0E6"""
-North Macedonia,"""#FFF0F5"""
-Mali,"""#FFE4E1"""
-Malta,"""#DCDCDC"""
-Myanmar,"""#D3D3D3"""
-Montenegro,"""#D3D3D3"""
-Mongolia,"""#C0C0C0"""
-Northern Mariana Islands,"""#A9A9A9"""
-Mozambique,"""#A9A9A9"""
-Mauritania,"""#808080"""
-Mauritius,"""#808080"""
-Malawi,"""#696969"""
-Malaysia,"""#696969"""
-Namibia,"""#778899"""
-New Caledonia,"""#778899"""
-Niger,"""#708090"""
-Nigeria,"""#708090"""
-Nicaragua,"""#2F4F4F"""
-Netherlands,"""#2F4F4F"""
-Norway,"""#0"""
-Nepal,"""#F08080"""
-Nauru,"""#FA8072"""
-New Zealand,"""#E9967A"""
-Oman,"""#FFA07A"""
-Pakistan,"""#DC143C"""
-Panama,"""#FF0000"""
-Peru,"""#B22222"""
-Philippines,"""#8B0000"""
-Palau,"""#FFC0CB"""
-Papua New Guinea,"""#FFB6C1"""
-Poland,"""#FF69B4"""
-Puerto Rico,"""#FF1493"""
-"Korea, Dem. Peopleâ€™s Rep.","""#C71585"""
-Portugal,"""#DB7093"""
-Paraguay,"""#FF7F50"""
-West Bank and Gaza,"""#FF6347"""
-French Polynesia,"""#FF4500"""
-Qatar,"""#FF8C00"""
-Romania,"""#FFA500"""
-Russian Federation,"""#FFD700"""
-Rwanda,"""#FFFF00"""
-Saudi Arabia,"""#FFFFE0"""
-Sudan,"""#FFFACD"""
-Senegal,"""#FAFAD2"""
-Singapore,"""#FFEFD5"""
-Solomon Islands,"""#FFE4B5"""
-Sierra Leone,"""#FFDAB9"""
-El Salvador,"""#EEE8AA"""
-San Marino,"""#F0E68C"""
-Somalia,"""#BDB76B"""
-Serbia,"""#E6E6FA"""
-South Sudan,"""#D8BFD8"""
-Small states,"""#DDA0DD"""
-Sao Tome and Principe,"""#EE82EE"""
-Suriname,"""#DA70D6"""
-Slovak Republic,"""#FF00FF"""
-Slovenia,"""#FF00FF"""
-Sweden,"""#BA55D3"""
-Eswatini,"""#9370DB"""
-Sint Maarten (Dutch part),"""#8A2BE2"""
-Seychelles,"""#9400D3"""
-Syrian Arab Republic,"""#9932CC"""
-Turks and Caicos Islands,"""#8B008B"""
-Chad,"""#800080"""
-Togo,"""#663399"""
-Thailand,"""#4B0082"""
-Tajikistan,"""#7B68EE"""
-Turkmenistan,"""#6A5ACD"""
-Timor-Leste,"""#483D8B"""
-Tonga,"""#ADFF2F"""
-Trinidad and Tobago,"""#7FFF00"""
-Tunisia,"""#7CFC00"""
-Turkey,"""#00FF00"""
-Tuvalu,"""#32CD32"""
-Tanzania,"""#98FB98"""
-Uganda,"""#90EE90"""
-Ukraine,"""#00FA9A"""
-Uruguay,"""#00FF7F"""
-United States,"""#3CB371"""
-Uzbekistan,"""#2E8B57"""
-St. Vincent and the Grenadines,"""#228B22"""
-"Venezuela, RB","""#8000"""
-British Virgin Islands,"""#6400"""
-Virgin Islands (U.S.),"""#9ACD32"""
-Vietnam,"""#6B8E23"""
-Vanuatu,"""#808000"""
-Samoa,"""#556B2F"""
-Kosovo,"""#66CDAA"""
-"Yemen, Rep.","""#8FBC8F"""
-South Africa,"""#20B2AA"""
-Zambia,"""#008B8B"""
-Zimbabwe,"""#8080"""
-,"""#00FFFF"""
-,"""#00FFFF"""
-,"""#E0FFFF"""
-,"""#AFEEEE"""
-,"""#7FFFD4"""
-,"""#40E0D0"""
-,"""#48D1CC"""
-,"""#00CED1"""
-,"""#5F9EA0"""
-,"""#4682B4"""
-,"""#B0C4DE"""
-,"""#B0E0E6"""
-,"""#ADD8E6"""
-,"""#87CEEB"""
-,"""#87CEFA"""
-,"""#00BFFF"""
-,"""#1E90FF"""
-,"""#6495ED"""
-,"""#41690"""
-,"""#0000FF"""
-,"""#0000CD"""
-,"""#00008B"""
-,"""#80"""
-,"""#191970"""
-,"""#FFF8DC"""
-,"""#FFEBCD"""
-,"""#FFE4C4"""
-,"""#FFDEAD"""
-,"""#F5DEB3"""
-,"""#DEB887"""
-,"""#D2B48C"""
-,"""#BC8F8F"""
-,"""#F4A460"""
-,"""#DAA520"""
-,"""#B8860B"""
-,"""#CD853F"""
-,"""#D2691E"""
-,"""#8B4513"""
-,"""#A0522D"""
-,"""#A52A2A"""
-,"""#800000"""
-,"""#FFFFFF"""
-,"""#FFFAFA"""
-,"""#F0FFF0"""
-,"""#F5FFFA"""
-,"""#F0FFFF"""
-,"""#F0F8FF"""
-,"""#F8F8FF"""
-,"""#F5F5F5"""
-,"""#FFF5EE"""
-,"""#F5F5DC"""
-,"""#FDF5E6"""
-,"""#FFFAF0"""
-,"""#FFFFF0"""
-,"""#FAEBD7"""
-,"""#FAF0E6"""
-,"""#FFF0F5"""
-,"""#FFE4E1"""
-,"""#DCDCDC"""
-,"""#D3D3D3"""
-,"""#D3D3D3"""
-,"""#C0C0C0"""
-,"""#A9A9A9"""
-,"""#A9A9A9"""
-,"""#808080"""
-,"""#808080"""
-,"""#696969"""
-,"""#696969"""
-,"""#778899"""
-,"""#778899"""
-,"""#708090"""
-,"""#708090"""
-,"""#2F4F4F"""
-,"""#2F4F4F"""
-,"""#0"""
+Aruba,#F08080
+Afghanistan,#FA8072
+Angola,#E9967A
+Albania,#FFA07A
+Andorra,#DC143C
+United Arab Emirates,#FF0000
+Argentina,#B22222
+Armenia,#8B0000
+American Samoa,#FFC0CB
+Antigua and Barbuda,#FFB6C1
+Australia,#FF69B4
+Austria,#FF1493
+Azerbaijan,#C71585
+Burundi,#DB7093
+Belgium,#FF7F50
+Benin,#FF6347
+Burkina Faso,#FF4500
+Bangladesh,#FF8C00
+Bulgaria,#FFA500
+Bahrain,#FFD700
+"Bahamas, The",#FFFF00
+Bosnia and Herzegovina,#FFFFE0
+Belarus,#FFFACD
+Belize,#FAFAD2
+Bermuda,#FFEFD5
+Bolivia,#FFE4B5
+Brazil,#FFDAB9
+Barbados,#EEE8AA
+Brunei Darussalam,#F0E68C
+Bhutan,#BDB76B
+Botswana,#E6E6FA
+Central African Republic,#D8BFD8
+Canada,#DDA0DD
+Switzerland,#EE82EE
+Channel Islands,#DA70D6
+Chile,#FF00FF
+China,#FF00FF
+Cote d'Ivoire,#BA55D3
+Cameroon,#9370DB
+"Congo, Dem. Rep.",#8A2BE2
+"Congo, Rep.",#9400D3
+Colombia,#9932CC
+Comoros,#8B008B
+Cabo Verde,#800080
+Costa Rica,#663399
+Cuba,#4B0082
+Curacao,#7B68EE
+Cayman Islands,#6A5ACD
+Cyprus,#483D8B
+Czech Republic,#ADFF2F
+Germany,#7FFF00
+Djibouti,#7CFC00
+Dominica,#00FF00
+Denmark,#32CD32
+Dominican Republic,#98FB98
+Algeria,#90EE90
+Ecuador,#00FA9A
+"Egypt, Arab Rep.",#00FF7F
+Eritrea,#3CB371
+Spain,#2E8B57
+Estonia,#228B22
+Ethiopia,#5ad6d4
+Finland,#6400
+Fiji,#9ACD32
+France,#6B8E23
+Faroe Islands,#808000
+"Micronesia, Fed. Sts.",#556B2F
+Gabon,#66CDAA
+United Kingdom,#8FBC8F
+Georgia,#20B2AA
+Ghana,#008B8B
+Gibraltar,#8080
+Guinea,#00FFFF
+"Gambia, The",#00FFFF
+Guinea-Bissau,#E0FFFF
+Equatorial Guinea,#AFEEEE
+Greece,#7FFFD4
+Grenada,#40E0D0
+Greenland,#48D1CC
+Guatemala,#00CED1
+Guam,#5F9EA0
+Guyana,#4682B4
+"Hong Kong SAR, China",#B0C4DE
+Honduras,#B0E0E6
+Croatia,#ADD8E6
+Haiti,#87CEEB
+Hungary,#87CEFA
+Indonesia,#00BFFF
+Isle of Man,#1E90FF
+India,#6495ED
+Not classified,#41690
+Ireland,#0000FF
+"Iran, Islamic Rep.",#0000CD
+Iraq,#00008B
+Iceland,#80
+Israel,#191970
+Italy,#9f4fc4
+Jamaica,#FFEBCD
+Jordan,#FFE4C4
+Japan,#FFDEAD
+Kazakhstan,#F5DEB3
+Kenya,#DEB887
+Kyrgyz Republic,#D2B48C
+Cambodia,#BC8F8F
+Kiribati,#F4A460
+St. Kitts and Nevis,#DAA520
+"Korea, Rep.",#B8860B
+Kuwait,#CD853F
+Lao PDR,#D2691E
+Lebanon,#11a839
+Liberia,#A0522D
+Libya,#A52A2A
+St. Lucia,#800000
+Liechtenstein,#FFFFFF
+Sri Lanka,#FFFAFA
+Lesotho,#F0FFF0
+Lithuania,#F5FFFA
+Luxembourg,#F0FFFF
+Latvia,#F0F8FF
+"Macao SAR, China",#F8F8FF
+St. Martin (French part),#F5F5F5
+Morocco,#FFF5EE
+Monaco,#F5F5DC
+Moldova,#FDF5E6
+Madagascar,#FFFAF0
+Maldives,#FFFFF0
+Mexico,#FAEBD7
+Marshall Islands,#FAF0E6
+North Macedonia,#FFF0F5
+Mali,#FFE4E1
+Malta,#DCDCDC
+Myanmar,#D3D3D3
+Montenegro,#D3D3D3
+Mongolia,#C0C0C0
+Northern Mariana Islands,#A9A9A9
+Mozambique,#A9A9A9
+Mauritania,#808080
+Mauritius,#808080
+Malawi,#696969
+Malaysia,#696969
+Namibia,#778899
+New Caledonia,#778899
+Niger,#708090
+Nigeria,#708090
+Nicaragua,#2F4F4F
+Netherlands,#2F4F4F
+Norway,#0
+Nepal,#F08080
+Nauru,#FA8072
+New Zealand,#E9967A
+Oman,#FFA07A
+Pakistan,#DC143C
+Panama,#FF0000
+Peru,#B22222
+Philippines,#8B0000
+Palau,#FFC0CB
+Papua New Guinea,#FFB6C1
+Poland,#FF69B4
+Puerto Rico,#FF1493
+"Korea, Dem. Peopleâ€™s Rep.",#C71585
+Portugal,#DB7093
+Paraguay,#FF7F50
+West Bank and Gaza,#FF6347
+French Polynesia,#FF4500
+Qatar,#FF8C00
+Romania,#FFA500
+Russian Federation,#FFD700
+Rwanda,#FFFF00
+Saudi Arabia,#e0c169
+Sudan,#FFFACD
+Senegal,#FAFAD2
+Singapore,#FFEFD5
+Solomon Islands,#FFE4B5
+Sierra Leone,#FFDAB9
+El Salvador,#EEE8AA
+San Marino,#F0E68C
+Somalia,#BDB76B
+Serbia,#E6E6FA
+South Sudan,#D8BFD8
+Small states,#DDA0DD
+Sao Tome and Principe,#EE82EE
+Suriname,#DA70D6
+Slovak Republic,#FF00FF
+Slovenia,#FF00FF
+Sweden,#BA55D3
+Eswatini,#9370DB
+Sint Maarten (Dutch part),#8A2BE2
+Seychelles,#9400D3
+Syrian Arab Republic,#9932CC
+Turks and Caicos Islands,#8B008B
+Chad,#800080
+Togo,#663399
+Thailand,#4B0082
+Tajikistan,#7B68EE
+Turkmenistan,#6A5ACD
+Timor-Leste,#483D8B
+Tonga,#ADFF2F
+Trinidad and Tobago,#7FFF00
+Tunisia,#7CFC00
+Turkey,#00FF00
+Tuvalu,#32CD32
+Tanzania,#98FB98
+Uganda,#90EE90
+Ukraine,#00FA9A
+Uruguay,#00FF7F
+United States,#3CB371
+Uzbekistan,#2E8B57
+St. Vincent and the Grenadines,#228B22
+"Venezuela, RB",#8000
+British Virgin Islands,#6400
+Virgin Islands (U.S.),#9ACD32
+Vietnam,#6B8E23
+Vanuatu,#808000
+Samoa,#556B2F
+Kosovo,#66CDAA
+"Yemen, Rep.",#8FBC8F
+South Africa,#20B2AA
+Zambia,#008B8B
+Zimbabwe,#8080
+,#00FFFF
+,#00FFFF
+,#E0FFFF
+,#AFEEEE
+,#7FFFD4
+,#40E0D0
+,#48D1CC
+,#00CED1
+,#5F9EA0
+,#4682B4
+,#B0C4DE
+,#B0E0E6
+,#ADD8E6
+,#87CEEB
+,#87CEFA
+,#00BFFF
+,#1E90FF
+,#6495ED
+,#41690
+,#0000FF
+,#0000CD
+,#00008B
+,#80
+,#191970
+,#FFF8DC
+,#FFEBCD
+,#FFE4C4
+,#FFDEAD
+,#F5DEB3
+,#DEB887
+,#D2B48C
+,#BC8F8F
+,#F4A460
+,#DAA520
+,#B8860B
+,#CD853F
+,#D2691E
+,#8B4513
+,#A0522D
+,#A52A2A
+,#800000
+,#FFFFFF
+,#FFFAFA
+,#F0FFF0
+,#F5FFFA
+,#F0FFFF
+,#F0F8FF
+,#F8F8FF
+,#F5F5F5
+,#FFF5EE
+,#F5F5DC
+,#FDF5E6
+,#FFFAF0
+,#FFFFF0
+,#FAEBD7
+,#FAF0E6
+,#FFF0F5
+,#FFE4E1
+,#DCDCDC
+,#D3D3D3
+,#D3D3D3
+,#C0C0C0
+,#A9A9A9
+,#A9A9A9
+,#808080
+,#808080
+,#696969
+,#696969
+,#778899
+,#778899
+,#708090
+,#708090
+,#2F4F4F
+,#2F4F4F
+,#0

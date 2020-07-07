@@ -4,7 +4,7 @@ body {
   flex-direction: column;
 } */
 
-button {
+/* button {
   width: 80px;
   height: 30px;
   border-radius: 4px;
@@ -12,6 +12,16 @@ button {
   outline: none;
   cursor: pointer;
   margin-top: 10px;
+} */
+#selDataset{
+  height: 40px;
+  width: 130px;
+  font-size: x-large;
+}
+#myBtn{
+  height: 50px;
+  width: 90px;
+  font-size: x-large;
 }
 .ticker-text{
   display: inline-block;
