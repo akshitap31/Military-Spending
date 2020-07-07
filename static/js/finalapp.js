@@ -196,7 +196,7 @@ d3.json("/timeline").then(jsonData => {
   data.push(jsonData);
   d3.json("/colors").then(colorData => {
     
-  var intervalId = setInterval(showBar, 50);
+  var intervalId = setInterval(showBar, 500);
   var i = 1960;
 
   function showBar() {
