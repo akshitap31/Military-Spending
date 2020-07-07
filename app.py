@@ -192,7 +192,7 @@ def all_data(year, cat):
     return df.to_json(orient="index")
 @app.route("/colors")
 def colors():
-    df=pd.read_csv("colors.csv")
+    df=pd.read_csv("source/colors.csv")
     output=df.to_json(orient="records")
     return output
 @app.route("/timeline")
