@@ -174,7 +174,7 @@ chartGroup.append('text').html('Year').attr('x', width/2).attr('y', height+40);
 chartGroup.append("text")
 .attr("transform", `translate(${width / 2}, ${height + margin.top + 20})`)
   .classed("amt-text text", true)
-  .text("Expenditure (in 000's USD)");
+  .text("Expenditure (in Thousands USD)");
 
 chartGroup.append("text")
 .attr("transform", `translate(${width / 2}, ${height + margin.top + 37})`)
