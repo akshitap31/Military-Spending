@@ -17,7 +17,7 @@
 <h2><center>Before You Begin</center></h2>
 
 <ol>
-    <li>Install "lxml" in your environment using "pip install lxml".</li>
+    <li>Run "pip install -r requirements.txt" on your terminal.</li>
 </ol>
 
 <br>
@@ -26,6 +26,7 @@
 <h3>root folder</h3>
 <ul>
     <li><b>README.md</b> - Our project documentation markdown file.</li>
+    <li><b>requirements.txt</b> - The required libraries to install before running app.py.</li>
     <li><b>Project Outline.docx</b> - Our project outline that was submitted for approval at the beginning of the project.</li>
     <li><b>app.py</b> - Our main python application file that calls the Flask application and declares our routes.</li>
 </ul>

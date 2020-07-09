@@ -223,4 +223,4 @@ def timeline_gdp():
     return my_dict
     
 if __name__ == "__main__":
-    app.run(debug=False)
+    app.run()
