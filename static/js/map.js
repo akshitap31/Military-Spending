@@ -31,7 +31,7 @@ var myMap = L.map("map", {
   zoom: 2
 })
 
-console.log(process.env.REACT_APP_API_KEY)
+//console.log(process.env.REACT_APP_API_KEY)
 
 
 //d3.select("#map").attr("style","../css/map.css")
