@@ -13,7 +13,7 @@
 
 <h2>Heroku</h2>
 <ul>
-    <li><a href="https://militaryspending.herokuapp.com/">https://militaryspending.herokuapp.com/</a></li>
+    <li><a href="http://militaryspending.herokuapp.com/">http://militaryspending.herokuapp.com/</a></li>
 </ul>
 
 <h4>For this project, we will be analyzing military spending among all countries between 1960 and 2018, with an emphasis on United States military conflicts.  We will compare Total Military Spend in USD as well as military spend as a percentage of each country's GDP, and rank each country through each time period by both metrics.</h4>
