@@ -5,7 +5,7 @@ function UpdateMap(){
 ////CREATE URLs to retrieve country data
 // Store API query variables
 const API_KEY = "pk.eyJ1IjoiZXZhbnMzODMiLCJhIjoiY2tiaWlkYzF4MGRoaDJzdGR2enl0dnpiZyJ9.8wRWWOQVll_mZpvv_bP8tw";
-var CountryURL = "https://api.thenmap.net/v2/world-2/geo/";
+var CountryURL = "http://api.thenmap.net/v2/world-2/geo/";
 // Add the dates in the ISO formats
 var Year = d3.select("#selTime").property("value");
 var Cat = d3.select("#selCategory").property("value");
@@ -37,8 +37,8 @@ var myMap = L.map("map", {
 //d3.select("#map").attr("style","../css/map.css")
 d3.select("head").append("link").attr("rel","stylesheet").attr("type","text/css").attr("href","../static/css/map.css")
 // Adding tile layer to the map
-L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
-  attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
+L.tileLayer("http://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
+  attribution: "© <a href='http://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='http://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
   tileSize: 512,
   maxZoom: 18,
   zoomOffset: -1,
